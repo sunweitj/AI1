@@ -37,15 +37,22 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 	//	2, 2,			// TODO:  调整行数和列数
 	//	CSize(10, 10),	// TODO:  调整最小窗格大小
 	//	pContext);
+	CRect rect;
+	GetClientRect(&rect);
+	CSize size = rect.Size();
+	size.cx /= 2;
+	size.cy /= 2;
+
 	if (!m_split.CreateStatic(this, 1, 2))
 
 	{
+		TRACE0("Failed to create first static splitter\n");
 
 		return FALSE;
 
 	}
 
-	if (!m_split.CreateView(0, 0, RUNTIME_CLASS(CMy001View),
+	if (!m_split.CreateView(0, 0, RUNTIME_CLASS(CMy001View),//创建右边视图
 
 		CSize(200, 100), pContext) ||
 
@@ -63,7 +70,7 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 
 
-	m_split.DeleteView(0, 0);
+	m_split.DeleteView(0, 0);//删除刚刚创建
 
 	if (!m_splitLeft.CreateStatic(&m_split, 2, 1, WS_CHILD | WS_VISIBLE,
 
@@ -77,11 +84,11 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 	if (!m_splitLeft.CreateView(0, 0, RUNTIME_CLASS(CMy001View),
 
-		CSize(200, 100), pContext) ||
+		CSize(size.cx, 500), pContext) ||
 
 		!m_splitLeft.CreateView(1, 0, RUNTIME_CLASS(CMy003View),
 
-		CSize(200, 100), pContext))
+		CSize(size.cx,500), pContext))
 
 	{
 
@@ -90,10 +97,67 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 		return FALSE;
 
 	}
+	//HWND hwnd1 = m_split.GetSafeHwnd();
+	//if (hwnd1 == NULL || IsWindow(hwnd1))
+	//{
+	//	return 0;
+	//}
+	int l = size.cx, w = size.cy;
+	m_split.GetColumnInfo(0,l,w);
 
 
+	return TRUE;   
+/*	CRect rect;
+	GetClientRect( &rect );
+	CSize size = rect.Size();
+	size.cx /= 2;		// Initial column size
+	size.cy /= 2;		// Initial row size
 
-	return TRUE;
+	// 1 - Create first static splitter
+	if( !m_split.CreateStatic( this, 1, 2 ) )	// 2 rows, 1 col
+	{
+		TRACE0( "Failed to create first static splitter\n" );
+		return FALSE;
+	}
+
+	// 2 - Create top row view
+	if( !m_split.CreateView( 0, 0,				// row 0, col 0
+		RUNTIME_CLASS(CMy001View),
+							size, pContext ) )
+	{
+		m_split.DestroyWindow();
+		TRACE0( "Failed to create top view\n" );
+		return FALSE;
+	}
+	m_split.DeleteView(0, 0);//删除刚刚创建
+	// 3 - Create nested static splitter 
+	if( !m_splitLeft.CreateStatic( &m_split, 2, 1,	// 1 row, 2 cols
+							 WS_CHILD | WS_VISIBLE,
+							 m_split.IdFromRowCol( 0, 1 ) ) )
+	{
+		TRACE0( "Failed to create nested static splitter\n" );
+		return FALSE;
+	}
+
+	// 4 - Create bottom-left view
+	if( !m_splitLeft.CreateView( 0, 0,			// row 0, col 0
+		RUNTIME_CLASS(CMy002View),
+							size, pContext ) )
+	{
+		TRACE0( "Failed to create bottom-left view\n" );
+		return FALSE;
+	}
+
+	// 5 - Create bottom-right view
+	if( !m_splitLeft.CreateView( 0, 1,			// row 0, col 1
+		RUNTIME_CLASS(CMy003View),
+							size, pContext ) )
+	{
+		TRACE0( "Failed to create bottom-right view\n" );
+		return FALSE;
+	}
+
+	return TRUE;*/
 }
 
 BOOL CChildFrame::PreCreateWindow(CREATESTRUCT& cs)
