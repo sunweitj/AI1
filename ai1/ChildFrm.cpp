@@ -107,57 +107,7 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 
 	return TRUE;   
-/*	CRect rect;
-	GetClientRect( &rect );
-	CSize size = rect.Size();
-	size.cx /= 2;		// Initial column size
-	size.cy /= 2;		// Initial row size
 
-	// 1 - Create first static splitter
-	if( !m_split.CreateStatic( this, 1, 2 ) )	// 2 rows, 1 col
-	{
-		TRACE0( "Failed to create first static splitter\n" );
-		return FALSE;
-	}
-
-	// 2 - Create top row view
-	if( !m_split.CreateView( 0, 0,				// row 0, col 0
-		RUNTIME_CLASS(CMy001View),
-							size, pContext ) )
-	{
-		m_split.DestroyWindow();
-		TRACE0( "Failed to create top view\n" );
-		return FALSE;
-	}
-	m_split.DeleteView(0, 0);//É¾³ý¸Õ¸Õ´´½¨
-	// 3 - Create nested static splitter 
-	if( !m_splitLeft.CreateStatic( &m_split, 2, 1,	// 1 row, 2 cols
-							 WS_CHILD | WS_VISIBLE,
-							 m_split.IdFromRowCol( 0, 1 ) ) )
-	{
-		TRACE0( "Failed to create nested static splitter\n" );
-		return FALSE;
-	}
-
-	// 4 - Create bottom-left view
-	if( !m_splitLeft.CreateView( 0, 0,			// row 0, col 0
-		RUNTIME_CLASS(CMy002View),
-							size, pContext ) )
-	{
-		TRACE0( "Failed to create bottom-left view\n" );
-		return FALSE;
-	}
-
-	// 5 - Create bottom-right view
-	if( !m_splitLeft.CreateView( 0, 1,			// row 0, col 1
-		RUNTIME_CLASS(CMy003View),
-							size, pContext ) )
-	{
-		TRACE0( "Failed to create bottom-right view\n" );
-		return FALSE;
-	}
-
-	return TRUE;*/
 }
 
 BOOL CChildFrame::PreCreateWindow(CREATESTRUCT& cs)
