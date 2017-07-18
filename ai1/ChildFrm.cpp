@@ -37,11 +37,7 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 	//	2, 2,			// TODO:  调整行数和列数
 	//	CSize(10, 10),	// TODO:  调整最小窗格大小
 	//	pContext);
-	CRect rect;
-	GetClientRect(&rect);
-	CSize size = rect.Size();
-	size.cx /= 2;
-	size.cy /= 2;
+	
 
 	if (!m_split.CreateStatic(this, 1, 2))
 
@@ -82,13 +78,13 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 	}
 
-	if (!m_splitLeft.CreateView(0, 0, RUNTIME_CLASS(CMy001View),
+	if (!m_splitLeft.CreateView(0, 0, RUNTIME_CLASS(CMy001View),//左上
 
-		CSize(size.cx, 500), pContext) ||
+		CSize(0, 500), pContext) ||
 
-		!m_splitLeft.CreateView(1, 0, RUNTIME_CLASS(CMy003View),
+		!m_splitLeft.CreateView(1, 0, RUNTIME_CLASS(CMy003View),//左下
 
-		CSize(size.cx,500), pContext))
+		CSize(0,500), pContext))
 
 	{
 
@@ -97,13 +93,18 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 		return FALSE;
 
 	}
-	//HWND hwnd1 = m_split.GetSafeHwnd();
-	//if (hwnd1 == NULL || IsWindow(hwnd1))
-	//{
-	//	return 0;
-	//}
-	int l = size.cx, w = size.cy;
-	m_split.GetColumnInfo(0,l,w);
+	CRect rect;
+	GetClientRect(&rect);
+	CSize size = rect.Size();
+	//size.cx /= 2;
+	//size.cy /= 2;
+	
+	m_split.SetColumnInfo(0, size.cx/3*2, 100);
+	m_splitLeft.SetColumnInfo(0, size.cx - size.cx / 3*2, 100);
+	m_splitLeft.SetRowInfo(1, size.cy/2, 100);
+	m_split.RecalcLayout();
+	m_split.SetActivePane(0, 0);
+
 
 
 	return TRUE;   
