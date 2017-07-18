@@ -175,6 +175,7 @@ BOOL Cai1App::InitInstance()
 	//POSITION p = pDocTemplate->GetFirstDocPosition;
 	
 	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
+//	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\plating\\Desktop\\SH#999999SL.txt"), 1);
 	return TRUE;
 }
 

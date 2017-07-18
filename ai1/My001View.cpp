@@ -28,6 +28,23 @@ END_MESSAGE_MAP()
 void CMy001View::OnDraw(CDC* pDC)
 {
 	CDocument* pDoc = GetDocument();
+	CRect rec;
+	GetClientRect(&rec);
+	
+	CPen pen(PS_SOLID, 1, RGB(255, 200, 0));
+	HGDIOBJ oldpen = pDC->SelectObject(&pen);
+	pDC->MoveTo(0,20);
+	pDC->LineTo(rec.Width(), 20);
+	pDC->MoveTo(rec.Width()-20, 20);
+	pDC->LineTo(rec.Width()-20, rec.Height() - 20);
+	pDC->MoveTo(rec.Width(), rec.Height()-20);
+	pDC->LineTo(0,rec.Height()-20);
+	pDC->MoveTo(20, rec.Height() - 20);
+	pDC->LineTo(20, 20);
+	pDC->SelectObject(oldpen);
+	//DeleteObject(pen);
+	
+
 	// TODO:  在此添加绘制代码
 
 }
