@@ -30,7 +30,7 @@ void CMy001View::OnDraw(CDC* pDC)
 	CDocument* pDoc = GetDocument();
 	CRect rec;
 	GetClientRect(&rec);
-	
+	//画边框
 	CPen pen(PS_SOLID, 1, RGB(255, 200, 0));
 	HGDIOBJ oldpen = pDC->SelectObject(&pen);
 	pDC->MoveTo(0,20);
@@ -42,8 +42,16 @@ void CMy001View::OnDraw(CDC* pDC)
 	pDC->MoveTo(20, rec.Height() - 20);
 	pDC->LineTo(20, 20);
 	pDC->SelectObject(oldpen);
-	//DeleteObject(pen);
-	
+	DeleteObject(pen);
+	//画坐标
+	CPen pendot(PS_DOT, 1, RGB(255, 200, 0));
+	HGDIOBJ oldpendot = pDC->SelectObject(&pendot);
+	pDC->MoveTo(0+20, rec.Height() / 2);
+	pDC->LineTo(rec.Width()-20, rec.Height() / 2);
+	pDC->MoveTo(rec.Width()/2, 20);
+	pDC->LineTo(rec.Width()/2, rec.Height()-20);
+	pDC->SelectObject(oldpendot);
+	DeleteObject(pendot);
 
 	// TODO:  在此添加绘制代码
 

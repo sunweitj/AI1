@@ -65,7 +65,7 @@ void Cai1Doc::Serialize(CArchive& ar)
 	else
 	{
 		CString filename = ar.m_strFileName;       //文件路径
-		AfxMessageBox(filename);
+	//	AfxMessageBox(filename);
 		char tmp_byte[1] = { 0 };	//保存临时字节
 		CString str_word;			//保存字
 		CString str_line;			//保存行
