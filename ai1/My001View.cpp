@@ -20,6 +20,7 @@ CMy001View::~CMy001View()
 }
 
 BEGIN_MESSAGE_MAP(CMy001View, CView)
+	ON_WM_CREATE()
 END_MESSAGE_MAP()
 
 
@@ -76,3 +77,15 @@ void CMy001View::Dump(CDumpContext& dc) const
 
 
 // CMy001View 消息处理程序
+
+
+int CMy001View::OnCreate(LPCREATESTRUCT lpCreateStruct)
+{
+	if (CView::OnCreate(lpCreateStruct) == -1)
+		return -1;
+
+	// TODO:  在此添加您专用的创建代码
+	
+
+	return 0;
+}

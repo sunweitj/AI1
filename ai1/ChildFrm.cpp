@@ -9,6 +9,7 @@
 #include"My001View.h"
 #include"My002View.h"
 #include"My003View.h"
+#include"My004View.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -48,7 +49,7 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 	}
 
-	if (!m_split.CreateView(0, 0, RUNTIME_CLASS(CMy001View),//创建右边视图
+	if (!m_split.CreateView(0, 0, RUNTIME_CLASS(My004View),//创建右边视图
 
 		CSize(200, 100), pContext) ||
 
@@ -78,7 +79,7 @@ BOOL CChildFrame::OnCreateClient(LPCREATESTRUCT /*lpcs*/, CCreateContext* pConte
 
 	}
 
-	if (!m_splitLeft.CreateView(0, 0, RUNTIME_CLASS(CMy001View),//左上
+	if (!m_splitLeft.CreateView(0, 0, RUNTIME_CLASS(My004View),//左上
 
 		CSize(0, 500), pContext) ||
 

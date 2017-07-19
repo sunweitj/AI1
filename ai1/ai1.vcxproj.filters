@@ -51,6 +51,9 @@
     <ClInclude Include="My003View.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="My004View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ai1.cpp">
@@ -78,6 +81,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="My003View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="My004View.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

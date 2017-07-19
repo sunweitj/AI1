@@ -28,6 +28,7 @@ BEGIN_MESSAGE_MAP(Cai1View, CScrollView)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &Cai1View::OnFilePrintPreview)
 	ON_WM_CONTEXTMENU()
 	ON_WM_RBUTTONUP()
+	ON_WM_CREATE()
 END_MESSAGE_MAP()
 
 // Cai1View 构造/析构
@@ -135,3 +136,14 @@ Cai1Doc* Cai1View::GetDocument() const // 非调试版本是内联的
 
 
 // Cai1View 消息处理程序
+
+
+int Cai1View::OnCreate(LPCREATESTRUCT lpCreateStruct)
+{
+	if (CScrollView::OnCreate(lpCreateStruct) == -1)
+		return -1;
+
+	// TODO:  在此添加您专用的创建代码
+
+	return 0;
+}
