@@ -25,6 +25,10 @@
 IMPLEMENT_DYNCREATE(Cai1Doc, CDocument)
 
 BEGIN_MESSAGE_MAP(Cai1Doc, CDocument)
+	
+//	ON_COMMAND(ID_BUTTON32785, &Cai1Doc::OnButton32785)
+//	ON_COMMAND(ID_BUTTON32782, &Cai1Doc::OnButton32782)
+//	ON_COMMAND(ID_BUTTON32780, &Cai1Doc::OnButton32780)
 END_MESSAGE_MAP()
 
 
@@ -64,6 +68,7 @@ void Cai1Doc::Serialize(CArchive& ar)
 	}
 	else
 	{
+		
 		CString filename = ar.m_strFileName;       //文件路径
 	//	AfxMessageBox(filename);
 		char tmp_byte[1] = { 0 };	//保存临时字节
@@ -178,3 +183,22 @@ void Cai1Doc::Dump(CDumpContext& dc) const
 
 
 // Cai1Doc 命令
+
+
+//void Cai1Doc::OnButton32785()
+//{
+//	// TODO:  在此添加命令处理程序代码
+//	AfxMessageBox(_T("h"));
+//}
+
+
+//void Cai1Doc::OnButton32782()
+//{
+//	// TODO:  在此添加命令处理程序代码
+//}
+
+
+//void Cai1Doc::OnButton32780()
+//{
+//	// TODO:  在此添加命令处理程序代码
+//}

@@ -105,38 +105,68 @@
     <ClInclude Include="ai1.h" />
     <ClInclude Include="ai1Doc.h" />
     <ClInclude Include="ai1View.h" />
+    <ClInclude Include="C2DMatrix.h" />
+    <ClInclude Include="CController.h" />
+    <ClInclude Include="Cga.h" />
     <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CInnovation.h" />
+    <ClInclude Include="CMapper.h" />
+    <ClInclude Include="CMinesweeper.h" />
+    <ClInclude Include="CMyTimer.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="CParams.h" />
+    <ClInclude Include="CSpecies.h" />
+    <ClInclude Include="genes.h" />
+    <ClInclude Include="genotype.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="My001View.h" />
     <ClInclude Include="My002View.h" />
     <ClInclude Include="My003View.h" />
     <ClInclude Include="My004View.h" />
+    <ClInclude Include="phenotype.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SVector2D.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ai1.cpp" />
     <ClCompile Include="ai1Doc.cpp" />
     <ClCompile Include="ai1View.cpp" />
+    <ClCompile Include="C2DMatrix.cpp" />
+    <ClCompile Include="CController.cpp" />
+    <ClCompile Include="Cga.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CInnovation.cpp" />
+    <ClCompile Include="CMapper.cpp" />
+    <ClCompile Include="CMinesweeper.cpp" />
+    <ClCompile Include="CMyTimer.cpp" />
+    <ClCompile Include="CParams.cpp" />
+    <ClCompile Include="CSpecies.cpp" />
+    <ClCompile Include="genotype.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="My001View.cpp" />
     <ClCompile Include="My002View.cpp" />
     <ClCompile Include="My003View.cpp" />
     <ClCompile Include="My004View.cpp" />
+    <ClCompile Include="phenotype.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ai1.rc" />
+    <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\ai1.ico" />
     <Image Include="res\ai1Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
     <Image Include="res\Toolbar256.bmp" />
     <Image Include="UserImages.bmp" />
   </ItemGroup>

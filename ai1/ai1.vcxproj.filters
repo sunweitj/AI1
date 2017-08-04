@@ -54,6 +54,54 @@
     <ClInclude Include="My004View.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CParams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="C2DMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cga.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMinesweeper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SVector2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CInnovation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpecies.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genotype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="phenotype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ai1.cpp">
@@ -86,9 +134,48 @@
     <ClCompile Include="My004View.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CMyTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CParams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C2DMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cga.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinesweeper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CInnovation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpecies.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="genotype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="phenotype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ai1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -106,6 +193,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

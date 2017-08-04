@@ -11,7 +11,8 @@
 #include "ChildFrm.h"
 #include "ai1Doc.h"
 #include "ai1View.h"
-
+#include "CController.h"
+#include "CParams.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -56,6 +57,25 @@ Cai1App::Cai1App()
 // 唯一的一个 Cai1App 对象
 
 Cai1App theApp;
+//The controller class for this simulation
+CController*	g_pController = NULL;
+CParams   g_Params;
+//---------------------------- Cleanup ----------------------------------
+//
+//	simply cleans up any memory issues when the application exits
+//-----------------------------------------------------------------------
+void Cleanup()
+{
+	if (g_pController)
+
+		delete g_pController;
+}
+
+
+
+list Gollist;//全局的结构用于存储时间，开盘，最高，最低收盘成交量成交额
+g_list GolVec;//全局的vector保存list结构
+int start_stop_paus;
 
 
 // Cai1App 初始化
@@ -174,8 +194,9 @@ BOOL Cai1App::InitInstance()
 	pMainFrame->UpdateWindow();
 	//POSITION p = pDocTemplate->GetFirstDocPosition;
 	
-	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
-//	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\plating\\Desktop\\SH#999999SL.txt"), 1);
+//    pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
+	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\plating\\Desktop\\SH#999999SL.txt"), 1);
+
 	return TRUE;
 }
 
@@ -183,6 +204,7 @@ int Cai1App::ExitInstance()
 {
 	//TODO:  处理可能已添加的附加资源
 	AfxOleTerm(FALSE);
+	Cleanup();
 
 	return CWinAppEx::ExitInstance();
 }
@@ -250,8 +272,7 @@ void Cai1App::SaveCustomState()
 
 
 
-list Gollist;//全局的结构用于存储时间，开盘，最高，最低收盘成交量成交额
-g_list GolVec;//全局的vector保存list结构
+
 
 
 
@@ -262,4 +283,13 @@ g_list GolVec;//全局的vector保存list结构
 //	// TODO:  在此添加命令处理程序代码
 //	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
 //	
+//}
+
+
+//int Cai1App::Run()
+//{
+//	// TODO:  在此添加专用代码和/或调用基类
+//	AfxMessageBox(_T("run"));
+//
+//	return CWinAppEx::Run();
 //}

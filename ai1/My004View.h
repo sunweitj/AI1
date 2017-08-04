@@ -1,3 +1,4 @@
+
 #pragma once
 
 
@@ -23,12 +24,25 @@ public:
 protected:
 	virtual void OnDraw(CDC* pDC);      // 重写以绘制该视图
 	virtual void OnInitialUpdate();     // 构造后的第一次
-
+	
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	afx_msg void OnVScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
 	afx_msg void OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
+protected:
+//	afx_msg LRESULT OnStart(WPARAM wParam, LPARAM lParam);
+//	afx_msg LRESULT OnPaus(WPARAM wParam, LPARAM lParam);
+//	afx_msg LRESULT OnEnd(WPARAM wParam, LPARAM lParam);
+public:
+	afx_msg void OnButton32780();
+	afx_msg void OnButton32782();
+	afx_msg void OnButton32785();
+private:
+	CMyTimer timer;
+public:
+	afx_msg void OnPaint();
+	virtual LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
 };
 
 

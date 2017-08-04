@@ -41,6 +41,7 @@ protected:
 	afx_msg void OnWindowManager();
 	afx_msg void OnViewCustomize();
 	afx_msg LRESULT OnToolbarCreateNew(WPARAM wp, LPARAM lp);
+
 	DECLARE_MESSAGE_MAP()
 
 };

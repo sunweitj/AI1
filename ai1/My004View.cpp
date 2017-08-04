@@ -4,6 +4,11 @@
 #include "stdafx.h"
 #include "ai1.h"
 #include "My004View.h"
+#include "CMyTimer.h"
+#include <time.h>
+#include "CParams.h"
+
+
 
 
 // My004View
@@ -24,6 +29,11 @@ BEGIN_MESSAGE_MAP(My004View, CScrollView)
 	ON_WM_CREATE()
 	ON_WM_VSCROLL()
 	ON_WM_HSCROLL()
+
+	ON_COMMAND(ID_BUTTON32780, &My004View::OnButton32780)
+	ON_COMMAND(ID_BUTTON32782, &My004View::OnButton32782)
+	ON_COMMAND(ID_BUTTON32785, &My004View::OnButton32785)
+	ON_WM_PAINT()
 END_MESSAGE_MAP()
 
 
@@ -35,7 +45,8 @@ void My004View::OnInitialUpdate()
 
 	CSize sizeTotal;
 	// TODO:  计算此视图的合计大小
-	sizeTotal.cx = GolVec.size();
+	//sizeTotal.cx = GolVec.size();
+	sizeTotal.cx = 50000;
 	sizeTotal.cy = 100;
 	SetScrollSizes(MM_TEXT, sizeTotal);
 }
@@ -69,7 +80,11 @@ void My004View::OnDraw(CDC* pDC)
 	pDC->LineTo(GolVec.size() / 2, rec.Height() - 20);
 	pDC->SelectObject(oldpendot);
 	DeleteObject(pendot);
-}
+
+	
+	}
+
+
 
 
 // My004View 诊断
@@ -99,6 +114,7 @@ int My004View::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	// TODO:  在此添加您专用的创建代码
 
+
 	return 0;
 }
 
@@ -117,4 +133,93 @@ void My004View::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
 	
 
 	CScrollView::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+
+
+
+
+void My004View::OnButton32780()//STOP
+{
+	// TODO:  在此添加命令处理程序代码
+	RECT rec;
+	GetClientRect(&rec);
+	InvalidateRect(&rec, 1);
+	UpdateWindow();
+}
+                                                                     
+void My004View::OnButton32782()  //STAR
+{
+	// TODO:  在此添加命令处理程序代码
+	
+	timer.Start();
+	RECT rec;
+	GetClientRect(&rec);
+	// Enter the message loop
+	MSG msg;
+	bool bDone = FALSE;
+
+	while (!bDone)
+	{
+
+		while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
+		{
+			if (msg.message == WM_QUIT)
+			{
+				// Stop loop if it's a quit message
+				bDone = TRUE;
+			}
+
+			else
+			{
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+		}
+
+		if (timer.ReadyForNextFrame() || g_pController->FastRender())
+		{
+			if (!g_pController->Update())
+			{
+				//we have a problem, end app
+				bDone = TRUE;
+			}
+
+			//this will call WM_PAINT which will render our scene
+			InvalidateRect(&rec, TRUE);
+			UpdateWindow();
+		}
+
+	}//end while
+
+
+	// Clean up everything and exit the app
+	
+	
+
+
+}
+
+
+void My004View::OnButton32785()//PAUSE
+{
+	// TODO:  在此添加命令处理程序代码
+	start_stop_paus = 2;
+
+}
+
+
+void My004View::OnPaint()
+{
+	CPaintDC dc(this); // device context for painting
+	// TODO:  在此处添加消息处理程序代码
+	// 不为绘图消息调用 CScrollView::OnPaint()
+	OnDraw(&dc);
+}
+
+
+LRESULT My004View::WindowProc(UINT message, WPARAM wParam, LPARAM lParam)
+{
+	// TODO:  在此添加专用代码和/或调用基类
+
+	return CScrollView::WindowProc(message, wParam, lParam);
 }

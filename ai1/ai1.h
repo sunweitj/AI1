@@ -24,6 +24,11 @@ struct list
 typedef std::vector<list> g_list;
 extern list Gollist;//全局的结构用于存储时间，开盘，最高，最低收盘成交量成交额
 extern g_list GolVec;//全局的vector保存list结构
+extern int start_stop_paus;
+extern CController*	g_pController;
+extern CParams   g_Params;
+void Cleanup();
+
 // Cai1App:
 // 有关此类的实现，请参阅 ai1.cpp
 //
@@ -49,6 +54,7 @@ public:
 	afx_msg void OnAppAbout();
 	DECLARE_MESSAGE_MAP()
 //	afx_msg void OnFileOpen();
+//	virtual int Run();
 };
 
 extern Cai1App theApp;
