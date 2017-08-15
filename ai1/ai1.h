@@ -9,7 +9,7 @@
 
 #include "resource.h"       // Ö÷·ûºÅ
 #include <vector>
-
+#include "CController.h"
 struct list
 {
 	CString dat;

@@ -1,5 +1,6 @@
-#include "genotype.h"
 #include "stdafx.h"
+#include "genotype.h"
+
 
 //------------------------------------------------------------------------
 //

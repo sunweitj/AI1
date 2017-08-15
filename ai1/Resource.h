@@ -17,6 +17,7 @@
 #define IDR_ai1TYPE                     130
 #define ID_WINDOW_MANAGER               131
 #define IDS_EDIT_MENU                   306
+#define IDB_BITMAP1                     322
 #define ID_BUTTON32773                  32773
 #define ID_BUTTON32777                  32777
 #define ID_BUTTON32779                  32779
@@ -33,7 +34,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        322
+#define _APS_NEXT_RESOURCE_VALUE        323
 #define _APS_NEXT_COMMAND_VALUE         32792
 #define _APS_NEXT_CONTROL_VALUE         1000
 #define _APS_NEXT_SYMED_VALUE           310

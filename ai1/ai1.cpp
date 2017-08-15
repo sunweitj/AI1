@@ -194,8 +194,9 @@ BOOL Cai1App::InitInstance()
 	pMainFrame->UpdateWindow();
 	//POSITION p = pDocTemplate->GetFirstDocPosition;
 	
-//    pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
-	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\plating\\Desktop\\SH#999999SL.txt"), 1);
+   pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
+//	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\plating\\Desktop\\SH#999999SL.txt"), 1);
+
 
 	return TRUE;
 }
@@ -204,7 +205,7 @@ int Cai1App::ExitInstance()
 {
 	//TODO:  处理可能已添加的附加资源
 	AfxOleTerm(FALSE);
-	Cleanup();
+	
 
 	return CWinAppEx::ExitInstance();
 }
@@ -276,20 +277,3 @@ void Cai1App::SaveCustomState()
 
 
 
-//20170610
-
-//void Cai1App::OnFileOpen()
-//{
-//	// TODO:  在此添加命令处理程序代码
-//	pDocTemplate->OpenDocumentFile(_T("C:\\Users\\DELL-660\\Desktop\\SH#999999SL.txt"), 1);
-//	
-//}
-
-
-//int Cai1App::Run()
-//{
-//	// TODO:  在此添加专用代码和/或调用基类
-//	AfxMessageBox(_T("run"));
-//
-//	return CWinAppEx::Run();
-//}

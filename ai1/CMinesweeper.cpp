@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "CMinesweeper.h"
 
 //-----------------------------------constructor-------------------------
@@ -87,7 +88,7 @@ void CMinesweeper::Render(HDC surface)
 
   string s = itos(m_MemoryMap.NumCellsVisited());
   s = "Num Cells Visited: " + s;
-  TextOut(surface, 220,0,s.c_str(), s.size());
+  TextOut(surface, 220,0,LPCWSTR(s.c_str()), s.size());
 
 }
 //---------------------WorldTransform--------------------------------

@@ -1,4 +1,5 @@
- #include "Cga.h"
+#include"stdafx.h"
+#include "Cga.h"
 
 
 //-------------------------------------------------------------------------
@@ -130,7 +131,7 @@ vector<CNeuralNet*> Cga::Epoch(const vector<double> &FitnessScores)
   {
 
     string s = "scores="+itos(FitnessScores.size())+"/gens="+itos(m_vecGenomes.size());
-    MessageBox(NULL,s.c_str(),"Error", MB_OK);
+    MessageBoxA(NULL,s.c_str(),"Error", MB_OK);
   }
 
   //reset appropriate values and kill off the existing phenotypes and
@@ -334,7 +335,9 @@ vector<CNeuralNet*> Cga::Epoch(const vector<double> &FitnessScores)
 //--------------------------- SortAndRecord-------------------------------
 //
 //  sorts the population into descending fitness, keeps a record of the
+//将种群排序为下降的适应度，记录最佳n个基因组，
 //  best n genomes and updates any fitness statistics accordingly
+//并更新相应的适应度统计数据。
 //------------------------------------------------------------------------
 void Cga::SortAndRecord()
 {
@@ -829,21 +832,21 @@ void Cga::RenderSpeciesInfo(HDC &surface, RECT db)
      if ( m_vecSpecies[spc].BestFitness() == m_dBestEverFitness)
      {
        string s = "Best Species ID: " + itos(m_vecSpecies[spc].ID());
-       TextOut(surface, 5, db.top - 80, s.c_str(), s.size());
+       TextOut(surface, 5, db.top - 80, LPCWSTR(s.c_str()), s.size());
        
        s = "Species Age: " + itos(m_vecSpecies[spc].Age());          
-       TextOut(surface, 5, db.top - 60, s.c_str(), s.size());
+	   TextOut(surface, 5, db.top - 60, LPCWSTR(s.c_str()), s.size());
 
        s = "Gens no improvement: " + itos(m_vecSpecies[spc].GensNoImprovement());
-       TextOut(surface, 5, db.top - 40, s.c_str(), s.size());
+	   TextOut(surface, 5, db.top - 40, LPCWSTR(s.c_str()), s.size());
 
        s = "Threshold: " + ftos(CParams::dCompatibilityThreshold);
-       TextOut(surface, 5, db.top - 100, s.c_str(), s.size());
+	   TextOut(surface, 5, db.top - 100, LPCWSTR(s.c_str()), s.size());
      }
   }
   
   string s = "Species Distribution Bar";
-	TextOut(surface, 5, db.top - 20, s.c_str(), s.size());
+  TextOut(surface, 5, db.top - 20, LPCWSTR(s.c_str()), s.size());
 }
 
 //--------------------------- WriteGenome --------------------------------

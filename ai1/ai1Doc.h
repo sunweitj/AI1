@@ -14,10 +14,14 @@ protected: // 仅从序列化创建
 
 // 特性
 public:
+	CBitmap m_TmpMap;
 
+	
+	
+	
 // 操作
 public:
-
+	void load();
 // 重写
 public:
 	virtual BOOL OnNewDocument();

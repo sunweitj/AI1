@@ -37,11 +37,15 @@ END_MESSAGE_MAP()
 Cai1Doc::Cai1Doc()
 {
 	// TODO:  在此添加一次性构造代码
+	
 
+	
 }
 
 Cai1Doc::~Cai1Doc()
 {
+	
+	
 }
 
 BOOL Cai1Doc::OnNewDocument()
@@ -55,6 +59,10 @@ BOOL Cai1Doc::OnNewDocument()
 	return TRUE;
 }
 
+void Cai1Doc::load()
+{
+	m_TmpMap.LoadBitmap(IDB_BITMAP1);
+}
 
 
 

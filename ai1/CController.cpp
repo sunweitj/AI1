@@ -322,7 +322,7 @@ void CController::Render(HDC &surface)
       RenderSweepers(surface, m_vecSweepers);
     }
 
-    SelectObject(surface, m_OldPen);
+	SelectObject(surface, m_BluePen);//Ô­»­±Ê m_OldPen
 
     //render the objects
     for (int i=0; i<NumObjectVerts; i+=2)
