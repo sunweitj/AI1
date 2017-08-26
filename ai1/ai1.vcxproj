@@ -116,6 +116,7 @@
     <ClInclude Include="collision.h" />
     <ClInclude Include="CParams.h" />
     <ClInclude Include="CSpecies.h" />
+    <ClInclude Include="CTrader.h" />
     <ClInclude Include="genes.h" />
     <ClInclude Include="genotype.h" />
     <ClInclude Include="MainFrm.h" />

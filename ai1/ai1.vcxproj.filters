@@ -102,6 +102,9 @@
     <ClInclude Include="phenotype.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CTrader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ai1.cpp">
