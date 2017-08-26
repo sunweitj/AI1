@@ -173,6 +173,9 @@
     <ClCompile Include="phenotype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CTrader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ai1.rc">

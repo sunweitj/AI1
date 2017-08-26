@@ -146,6 +146,7 @@
     <ClCompile Include="CMyTimer.cpp" />
     <ClCompile Include="CParams.cpp" />
     <ClCompile Include="CSpecies.cpp" />
+    <ClCompile Include="CTrader.cpp" />
     <ClCompile Include="genotype.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="My001View.cpp" />
