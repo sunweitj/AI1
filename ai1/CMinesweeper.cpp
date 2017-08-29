@@ -41,9 +41,10 @@ void CMinesweeper::CreateSensors(vector<SPoint> &sensors,
 
   double SegmentAngle = CParams::dPi / (NumSensors-1);
 
-	//going clockwise from 90deg left of position calculate the fan of
-	//points radiating out (not including the origin)
-	for (int i=0; i<CParams::iNumSensors; i++)
+	//going clockwise from 90deg left of position calculate the fan of 顺时针从90度左位置计算风机
+	//points radiating out (not including the origin)                   点辐射（不包括原点）
+	
+  for (int i=0; i<CParams::iNumSensors; i++)
 	{
 		//calculate vertex position
 		SPoint point;

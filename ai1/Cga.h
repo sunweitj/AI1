@@ -9,7 +9,7 @@
 //
 //  Desc: The evolutionary algorithm class  used in the implementation of 
 //        Kenneth Owen Stanley's and Risto Miikkulainen's NEAT idea.
-//       
+//       进化算法类在实现中的应用
 //------------------------------------------------------------------------
 #include <vector>
 #include <windows.h>

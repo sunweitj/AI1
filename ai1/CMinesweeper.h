@@ -61,11 +61,12 @@ private:
   vector<SPoint>  m_tranSensors;
 
   //this keeps a record of how far down the sensor segment
-  //a 'hit' has occurred.
+  //a 'hit' has occurred.这一纪录保持多远传感器部分发生了一次“撞击”。
+  
   vector<double>  m_vecdSensors;
 
-  //the end points of the sensors check their coordinate
-  //cell to see how many times the sweeper has visited it.
+  //the end points of the sensors check their coordinate该传感器的端点检查他们的坐标
+  //cell to see how many times the sweeper has visited it.  细胞看到多少次清扫过它。
   vector<double>  m_vecFeelers;
 
   //if a collision has been detected this flag is set
@@ -91,7 +92,7 @@ public:
 	//updates the ANN with information from the sweepers enviroment
 	bool			Update(vector<SPoint> &objects);
 
-	//used to transform the sweepers vertices prior to rendering
+	//used to transform the sweepers vertices prior to rendering在发送前变换顶点
   void			WorldTransform(vector<SPoint> &sweeper, double scale);
 
 	void			Reset();

@@ -21,6 +21,7 @@
 #include "SVector2D.h"
 #include "CParams.h"
 #include "Cga.h"
+#include "CTrader.h"
 
 using namespace std;
 
@@ -37,6 +38,9 @@ private:
 	//array of sweepers
 	vector<CMinesweeper> m_vecSweepers;
 
+   //建立Trader容器
+	vector<CTrader> m_vecTrader;//-----------------------------------------------------------------------------
+
   //array of best sweepers from last generation (used for
   //display purposes when 'B' is pressed by the user)
   vector<CMinesweeper> m_vecBestSweepers;
@@ -49,7 +53,7 @@ private:
   //vertex buffer for objects
   vector<SPoint>       m_ObjectsVB;
 
-	//stores the average fitness per generation 
+	//stores the average fitness per generation 存储每一代的平均适应性分数
 	vector<double>		   m_vecAvFitness;
 
 	//stores the best fitness per generation

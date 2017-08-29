@@ -4,11 +4,13 @@
 
 //-------------------------------------------------------------------------
 //	this constructor creates a base genome from supplied values and creates 
+//此构造函数从提供的值创建基本基因组并创建
 //	a population of 'size' similar (same topology, varying weights) genomes
+//“大小”相似（相同拓扑、不同权重）的基因组群
 //-------------------------------------------------------------------------
 Cga::Cga(int  size,
          int  inputs,
-         int  outputs):m_iPopSize(size),
+         int  outputs):m_iPopSize(size),//种群的大小
                     m_iGeneration(0),
                     m_pInnovation(NULL),
                     m_iNextGenomeID(0),

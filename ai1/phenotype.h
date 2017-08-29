@@ -74,13 +74,13 @@ struct SNeuron
   //what type of neuron is this?
   neuron_type   NeuronType;
 
-  //its identification number
+  //its identification 识别number
   int           iNeuronID;
 
-  //sets the curvature of the sigmoid function
+  //sets the curvature 曲率of the sigmoid function
   double        dActivationResponse;
 
-  //used in visualization of the phenotype
+  //used in visualization可视化 of the phenotype
   int           iPosX,   iPosY;
   double        dSplitY, dSplitX;
 
@@ -97,7 +97,7 @@ struct SNeuron
                                    iPosY(0),
                                    dSplitY(y),
                                    dSplitX(x),
-								   dActivationResponse(ActResponse)//活化反应
+								   dActivationResponse(ActResponse)//response反应
 	{}
 };
 
@@ -112,10 +112,10 @@ private:
   
   vector<SNeuron*>  m_vecpNeurons;
 
-  //the depth of the network
+  //the depth 深度of the network
   int               m_iDepth;
 
-  //tidies up the horizontal spacing of neurons
+  //tidies整理 up the horizontal spacing of neurons 收拾了神经元的水平间距
  // void TidyXSplits();
 
 public:

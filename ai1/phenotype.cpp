@@ -49,10 +49,10 @@ vector<double> CNeuralNet::Update(const vector<double> &inputs,
   //create a vector to put the outputs into
   vector<double>	outputs;
 
-  //if the mode is snapshot then we require all the neurons to be
-  //iterated through as many times as the network is deep. If the 
-  //mode is set to active the method can return an output after
-  //just one iteration
+  //if the mode is snapshot then we require all the neurons to be  如果模式是快照然后我们需要所有的神经元是
+  //iterated through as many times as the network is deep. If the  迭代通过多次网络深。如果
+  //mode is set to active the method can return an output after    模式设置为主动的方法可以返回一个输出后
+  //just one iteration                                             只是一个迭代
   int FlushCount = 0;
   
   if (type == snapshot)
@@ -73,7 +73,7 @@ vector<double> CNeuralNet::Update(const vector<double> &inputs,
     //this is an index into the current neuron
     int cNeuron = 0;
 
-    //first set the outputs of the 'input' neurons to be equal
+    //first set the outputs of the 'input' neurons to be equal 首先设置神经细胞输入等于输出跳过从input环节
     //to the values passed into the function in inputs
     while (m_vecpNeurons[cNeuron]->NeuronType == input)
     {
@@ -82,7 +82,7 @@ vector<double> CNeuralNet::Update(const vector<double> &inputs,
       ++cNeuron;
     }
 
-    //set the output of the bias to 1
+    //set the output of the bias偏置 to 1
     m_vecpNeurons[cNeuron++]->dOutput = 1;
 
     //then we step through the network a neuron at a time
@@ -145,7 +145,7 @@ vector<double> CNeuralNet::Update(const vector<double> &inputs,
 
 //----------------------------- TidyXSplits -----------------------------
 //
-//  This is a fix to prevent neurons overlapping when they are displayed
+//  This is a fix to prevent neurons overlapping when they are displayed这是一个在显示时固定防止神经元重叠时
 //-----------------------------------------------------------------------
 void TidyXSplits(vector<SNeuron*> &neurons)
 {

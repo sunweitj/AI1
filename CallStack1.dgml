@@ -1,488 +1,491 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(Name=&quot;__RtlUserThreadStart@8&quot; @23 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="428.468333333333,0,163.313333333333,25.96" Label="__RtlUserThreadStart@8">
+    <Node Id="(Name=&quot;__RtlUserThreadStart@8&quot; @23 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1010.325,0,174.63,25.24" Label="__RtlUserThreadStart@8">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="(Name=CController::RenderSweepers @26 @41 OverloadingParameters=[(Type=&quot;HDC__ * &amp;&quot; Name=surface),(Type=&quot;std::vector&lt;CMinesweeper,std::allocator&lt;CMinesweeper&gt; &gt; &amp;&quot; Name=sweepers)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="329.146666666667,2350.32,123.956666666667,25.96" Label="RenderSweepers" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ccontroller.cpp StartLineNumber=407 StartCharacterOffset=0 EndLineNumber=407 EndCharacterOffset=0)">
+    <Node Id="(Name=CController::RenderSweepers @26 @41 OverloadingParameters=[(Type=&quot;HDC__ * &amp;&quot; Name=surface),(Type=&quot;std::vector&lt;CMinesweeper,std::allocator&lt;CMinesweeper&gt; &gt; &amp;&quot; Name=sweepers)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="358.771666666667,2320.07999999999,131.736666666667,25.2399999999998" Label="RenderSweepers" SourceLocation="(Assembly=file:///c:/users/dell-660/desktop/ai1/ai1/ccontroller.cpp StartLineNumber=376 StartCharacterOffset=0 EndLineNumber=376 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="(Name=CMFCToolBar::SetUserImages @28 @33 OverloadingParameters=[(Type=&quot;CMFCToolBarImages *&quot; Name=pUserImages)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="637.836666666667,1958.6,114.576666666667,25.96" Label="SetUserImages" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=472 StartCharacterOffset=0 EndLineNumber=472 EndCharacterOffset=0)">
+    <Node Id="(Name=CMFCToolBar::SetUserImages @28 @33 OverloadingParameters=[(Type=&quot;CMFCToolBarImages *&quot; Name=pUserImages)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="230.861666666667,1933.39999999999,121.556666666667,25.2399999999998" Label="SetUserImages" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=472 StartCharacterOffset=0 EndLineNumber=472 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="(Name=CWnd::InvalidateRect @28 @41 OverloadingParameters=[(Type=&quot;const tagRECT *&quot; Name=lpRect),(@33 Name=bErase)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="644.01,2294.36,110.23,25.96" Label="InvalidateRect" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=114 StartCharacterOffset=0 EndLineNumber=114 EndCharacterOffset=0)">
+    <Node Id="(Name=CWnd::InvalidateRect @28 @41 OverloadingParameters=[(Type=&quot;const tagRECT *&quot; Name=lpRect),(@33 Name=bErase)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="778.16,2264.83999999999,116.96,25.2399999999998" Label="InvalidateRect" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=114 StartCharacterOffset=0 EndLineNumber=114 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="(Name=Cai1Doc::Serialize @26 @41 OverloadingParameters=[(Type=&quot;CArchive &amp;&quot; Name=ar)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="28.4483333333335,727.48,79.3533333333334,25.96" Label="Serialize" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=77 StartCharacterOffset=0 EndLineNumber=77 EndCharacterOffset=0)">
+    <Node Id="(Name=Cai1Doc::Serialize @26 @41 OverloadingParameters=[(Type=&quot;CArchive &amp;&quot; Name=ar)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="903.018333333333,718.119999999997,83.2433333333333,25.24" Label="Serialize" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=77 StartCharacterOffset=0 EndLineNumber=77 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="(Name=std::_Debug_message @90 @41 OverloadingParameters=[(@60 Name=message),(@60 Name=file),(@49 Name=line)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="758.22,2518.2,127.81,25.96" Label="_Debug_message" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/stdcpp/stdthrow.cpp StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
+    <Node Id="(Name=std::_Debug_message @90 @41 OverloadingParameters=[(@60 Name=message),(@60 Name=file),(@49 Name=line)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="488.778333333333,2485.80067058823,135.723333333333,25.2399999999998" Label="_Debug_message" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/stdcpp/stdthrow.cpp StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="620.733333333334,1119.2,162.783333333333,25.96" Label="_DispatchMessageW@4">
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="545.73,1104.8,173.82,25.2399999999998" Label="_DispatchMessageW@4">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@100" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="462.821666666667,839.400000000001,94.6066666666666,25.96" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=754 StartCharacterOffset=0 EndLineNumber=754 EndCharacterOffset=0)">
+    <Node Id="@100" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1047.77,828.599999999997,99.7399999999998,25.24" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=754 StartCharacterOffset=0 EndLineNumber=754 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@101" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="462.821666666667,783.440000000001,94.6066666666666,25.96" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmdi.cpp StartLineNumber=268 StartCharacterOffset=0 EndLineNumber=268 EndCharacterOffset=0)">
+    <Node Id="@101" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1047.77,773.359999999997,99.7399999999998,25.24" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmdi.cpp StartLineNumber=268 StartCharacterOffset=0 EndLineNumber=268 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@102" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="462.821666666667,727.48,94.6066666666666,25.96" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiframewndex.cpp StartLineNumber=428 StartCharacterOffset=0 EndLineNumber=428 EndCharacterOffset=0)">
+    <Node Id="@102" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1047.77,718.119999999997,99.7399999999998,25.24" Label="LoadFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiframewndex.cpp StartLineNumber=428 StartCharacterOffset=0 EndLineNumber=428 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@103" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.321666666667,2126.48,99.6066666666666,25.96" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/cmdtarg.cpp StartLineNumber=369 StartCharacterOffset=0 EndLineNumber=369 EndCharacterOffset=0)">
+    <Node Id="@103" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="484.103333333333,2099.11997058823,105.073333333333,25.2399999999998" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/cmdtarg.cpp StartLineNumber=369 StartCharacterOffset=0 EndLineNumber=369 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@104" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.321666666667,2014.56,99.6066666666666,25.96" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=979 StartCharacterOffset=0 EndLineNumber=979 EndCharacterOffset=0)">
+    <Node Id="@104" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="473.103333333333,1988.63977058823,105.073333333333,25.2399999999998" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=979 StartCharacterOffset=0 EndLineNumber=979 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@105" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.321666666667,2070.52,99.6066666666668,25.96" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/viewcore.cpp StartLineNumber=162 StartCharacterOffset=0 EndLineNumber=162 EndCharacterOffset=0)">
+    <Node Id="@105" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="473.103333333333,2043.87987058823,105.073333333333,25.2399999999998" Label="OnCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/viewcore.cpp StartLineNumber=162 StartCharacterOffset=0 EndLineNumber=162 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@106" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="415.205,1846.68,99.8400000000001,25.96" Label="OnWndMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2445 StartCharacterOffset=0 EndLineNumber=2445 EndCharacterOffset=0)">
+    <Node Id="@106" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="379.936666666667,1822.91947058823,105.406666666667,25.2399999999998" Label="OnWndMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2445 StartCharacterOffset=0 EndLineNumber=2445 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@107" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="284.681666666667,1678.8,120.886666666667,25.96" Label="AfxCallWndProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=279 StartCharacterOffset=0 EndLineNumber=279 EndCharacterOffset=0)">
+    <Node Id="@107" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="86.3466666666669,1657.19999999999,128.586666666667,25.2399999999998" Label="AfxCallWndProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=279 StartCharacterOffset=0 EndLineNumber=279 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@108" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="478.261666666667,2182.44,151.726666666667,25.96" Label="_AfxDispatchCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/cmdtarg.cpp StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)">
+    <Node Id="@108" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="455.626666666667,2154.36007058823,162.026666666667,25.2399999999998" Label="_AfxDispatchCmdMsg" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/cmdtarg.cpp StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@109" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="474.96,895.360000000001,70.3299999999999,25.96" Label="Create" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=620 StartCharacterOffset=0 EndLineNumber=620 EndCharacterOffset=0)">
+    <Node Id="@109" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1060.97333333333,883.839999999997,73.333333333333,25.24" Label="Create" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=620 StartCharacterOffset=0 EndLineNumber=620 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="760.925,1175.16,190.4,25.96" Label="_DispatchMessageWorker@8">
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="399.66,1160.04,203.96,25.2399999999998" Label="_DispatchMessageWorker@8">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@110" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="469.171666666667,951.320000000001,81.9066666666668,25.96" Label="CreateEx" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=740 StartCharacterOffset=0 EndLineNumber=740 EndCharacterOffset=0)">
+    <Node Id="@110" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1054.63333333333,939.079999999996,86.0133333333333,25.24" Label="CreateEx" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=740 StartCharacterOffset=0 EndLineNumber=740 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@111" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="402.681666666667,1007.28,214.886666666667,25.96" Label="IsolationAwareCreateWindowExW" SourceLocation="(Assembly=file:///f:/dd/externalapis/windows/winblue/sdk/inc/winuser.inl StartLineNumber=452 StartCharacterOffset=0 EndLineNumber=452 EndCharacterOffset=0)">
+    <Node Id="@111" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="982.156666666667,994.319999999996,230.966666666667,25.24" Label="IsolationAwareCreateWindowExW" SourceLocation="(Assembly=file:///f:/dd/externalapis/windows/winblue/sdk/inc/winuser.inl StartLineNumber=452 StartCharacterOffset=0 EndLineNumber=452 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="733.421666666667,1510.92,169.406666666667,25.96" Label="_InternalCallWinProc@20">
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="543.016666666667,1491.47999999999,181.246666666667,25.2399999999998" Label="_InternalCallWinProc@20">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="733.361666666667,1063.24,159.526666666667,25.96" Label="_IsDialogMessageW@8">
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="431.486666666667,1049.56,170.306666666667,25.2399999999998" Label="_IsDialogMessageW@8">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="101.961666666667,2406.28,170.326666666667,25.96" Label="_NtUserCallHwndLock@8">
+    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="834.575,2375.31999999999,182.13,25.2399999999998" Label="_NtUserCallHwndLock@8">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="414.228333333334,1231.12,191.793333333333,25.96" Label="_NtUserCreateWindowEx@60">
+    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="994.865,1215.28,205.55,25.2399999999998" Label="_NtUserCreateWindowEx@60">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@16" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="636.923333333334,1231.12,188.403333333333,25.96" Label="_NtUserDispatchMessage@4">
+    <Node Id="@16" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="532.768333333333,1215.28,201.743333333333,25.2399999999998" Label="_NtUserDispatchMessage@4">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="198.445,1231.12,185.36,25.96" Label="_NtUserRedrawWindow@16">
+    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="765.366666666667,1215.28,198.546666666667,25.2399999999998" Label="_NtUserRedrawWindow@16">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@18" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="753.231666666667,2014.56,149.786666666667,25.96" Label="_SendMessageW@16">
+    <Node Id="@18" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="608.838333333333,1988.63999999999,159.603333333333,25.2399999999998" Label="_SendMessageW@16">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@19" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="845.423333333334,2070.52,177.403333333333,25.96" Label="_SendMessageWorker@24">
+    <Node Id="@19" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="704.768333333334,2043.87999999999,189.743333333333,25.2399999999998" Label="_SendMessageWorker@24">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="483.425,2350.32,141.4,25.96" Label="_UpdateWindow@4">
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="744.35,2320.07999999999,150.58,25.2399999999998" Label="_UpdateWindow@4">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="750.221666666667,1454.96,211.806666666667,25.96" Label="_UserCallWinProcCheckWow@32">
+    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="520.02,1436.23999999999,227.24,25.2399999999998" Label="_UserCallWinProcCheckWow@32">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="405.276666666667,1175.16,209.696666666667,25.96" Label="_VerNtUserCreateWindowEx@52">
+    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="985.11,1160.04,225.06,25.2399999999998" Label="_VerNtUserCreateWindowEx@52">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="425.978333333334,55.96,168.293333333333,25.96" Label="___RtlUserThreadStart@8">
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1007.635,55.2399999999998,180.01,25.24" Label="___RtlUserThreadStart@8">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="272.388333333334,1287.08,199.473333333333,25.96" Label="_KiUserCallbackDispatcher@12">
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="818.695,1270.51999999999,213.89,25.2399999999998" Label="_KiUserCallbackDispatcher@12">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="784.718333333334,2294.36,74.8133333333333,25.96" Label="Update" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ccontroller.cpp StartLineNumber=189 StartCharacterOffset=0 EndLineNumber=189 EndCharacterOffset=0)">
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="512.533333333334,2264.84027058823,78.2133333333334,25.2399999999998" Label="Update" SourceLocation="(Assembly=file:///c:/users/dell-660/desktop/ai1/ai1/ccontroller.cpp StartLineNumber=195 StartCharacterOffset=0 EndLineNumber=195 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="418.878333333334,111.92,182.493333333333,25.96" Label="@BaseThreadInitThunk@12">
+    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="999.893333333333,110.48,195.493333333333,25.24" Label="@BaseThreadInitThunk@12">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@30" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="92.3733333333334,1287.08,149.503333333333,25.96" Label="CreateNewDocument" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doctempl.cpp StartLineNumber=243 StartCharacterOffset=0 EndLineNumber=243 EndCharacterOffset=0)">
+    <Node Id="@30" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="270.905,1270.51999999999,159.47,25.2399999999998" Label="CreateNewDocument" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doctempl.cpp StartLineNumber=243 StartCharacterOffset=0 EndLineNumber=243 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="114.513333333334,1454.96,105.223333333333,25.96" Label="CreateObject">
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,1436.23999999999,111.28,25.2399999999998" Label="CreateObject">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="114.513333333334,1399,105.223333333333,25.96" Label="CreateObject" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/objcore.cpp StartLineNumber=140 StartCharacterOffset=0 EndLineNumber=140 EndCharacterOffset=0)">
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="295,1380.99999999999,111.28,25.2399999999998" Label="CreateObject" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/objcore.cpp StartLineNumber=140 StartCharacterOffset=0 EndLineNumber=140 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="442.28,223.84,135.69,25.96" Label="__tmainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/dllstuff/crtexe.c StartLineNumber=607 StartCharacterOffset=0 EndLineNumber=607 EndCharacterOffset=0)">
+    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1025.35333333333,220.959999999999,144.573333333333,25.24" Label="__tmainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/dllstuff/crtexe.c StartLineNumber=607 StartCharacterOffset=0 EndLineNumber=607 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="461.716666666667,503.64,96.8166666666666,25.96" Label="InitInstance" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1.cpp StartLineNumber=194 StartCharacterOffset=0 EndLineNumber=194 EndCharacterOffset=0)">
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1046.45,497.159999999998,102.38,25.24" Label="InitInstance" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1.cpp StartLineNumber=194 StartCharacterOffset=0 EndLineNumber=194 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="434.283333333334,167.88,151.683333333333,25.96" Label="wWinMainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/dllstuff/crtexe.c StartLineNumber=465 StartCharacterOffset=0 EndLineNumber=465 EndCharacterOffset=0)">
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1016.59333333333,165.719999999999,162.093333333333,25.24" Label="wWinMainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt/crtw32/dllstuff/crtexe.c StartLineNumber=465 StartCharacterOffset=0 EndLineNumber=465 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="616.676666666667,559.6,170.896666666667,25.96" Label="AfxInternalPumpMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=173 StartCharacterOffset=0 EndLineNumber=173 EndCharacterOffset=0)">
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="541.093333333333,552.399999999998,183.093333333333,25.24" Label="AfxInternalPumpMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=173 StartCharacterOffset=0 EndLineNumber=173 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@38" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="540.746666666667,391.72,56.7566666666667,25.96" Label="Run" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/appcore.cpp StartLineNumber=786 StartCharacterOffset=0 EndLineNumber=786 EndCharacterOffset=0)">
+    <Node Id="@38" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1008.33,386.679999999998,58.6199999999999,25.24" Label="Run" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/appcore.cpp StartLineNumber=786 StartCharacterOffset=0 EndLineNumber=786 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="589.33,503.64,113.59,25.96" Label="PumpMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=899 StartCharacterOffset=0 EndLineNumber=899 EndCharacterOffset=0)">
+    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="895.438333333333,497.159999999998,120.403333333333,25.24" Label="PumpMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=899 StartCharacterOffset=0 EndLineNumber=899 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@40" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="540.746666666667,447.68,56.7566666666667,25.96" Label="Run" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=623 StartCharacterOffset=0 EndLineNumber=623 EndCharacterOffset=0)">
+    <Node Id="@40" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1008.33,441.919999999998,58.6199999999999,25.24" Label="Run" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=623 StartCharacterOffset=0 EndLineNumber=623 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="140.175,1510.92,79.9,25.96" Label="Cai1Doc" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
+    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="13.8016666666667,1491.47999999999,83.6766666666667,25.2399999999998" Label="Cai1Doc" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@43" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="336.57,2014.56,59.11,25.96" Label="load" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+    <Node Id="@43" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="332.073333333334,1988.63999999999,61.1333333333333,25.2399999999998" Label="load" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ai1doc.cpp StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="763.871666666667,2406.28,116.506666666667,25.96" Label="SortAndRecord" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/cga.cpp StartLineNumber=346 StartCharacterOffset=0 EndLineNumber=346 EndCharacterOffset=0)">
+    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="494.803333333334,2375.32047058823,123.673333333333,25.2399999999998" Label="SortAndRecord" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/cga.cpp StartLineNumber=346 StartCharacterOffset=0 EndLineNumber=346 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
+      <Category Ref="Category1" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="494.22,2238.4,119.81,25.96" Label="OnButton32782" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/my004view.cpp StartLineNumber=259 StartCharacterOffset=0 EndLineNumber=259 EndCharacterOffset=0)">
+    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="488.018333333334,2209.60017058823,127.243333333333,25.2399999999998" Label="OnButton32782" SourceLocation="(Assembly=file:///c:/users/dell-660/desktop/ai1/ai1/my004view.cpp StartLineNumber=317 StartCharacterOffset=0 EndLineNumber=317 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@46" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="425.911666666667,1902.64,78.4266666666667,25.96" Label="OnPaint" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/my004view.cpp StartLineNumber=395 StartCharacterOffset=0 EndLineNumber=395 EndCharacterOffset=0)">
+    <Node Id="@46" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="391.536666666667,1878.15957058823,82.2066666666667,25.2399999999998" Label="OnPaint" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/my004view.cpp StartLineNumber=395 StartCharacterOffset=0 EndLineNumber=395 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@47" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="218.741666666667,783.440000000001,144.766666666667,25.96" Label="UpdateFrameCounts" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doccore.cpp StartLineNumber=213 StartCharacterOffset=0 EndLineNumber=213 EndCharacterOffset=0)">
+    <Node Id="@47" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="722.478333333333,773.359999999997,154.323333333333,25.24" Label="UpdateFrameCounts" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doccore.cpp StartLineNumber=213 StartCharacterOffset=0 EndLineNumber=213 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="494.88,2294.36,118.49,25.96" Label="UpdateWindow" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=104 StartCharacterOffset=0 EndLineNumber=104 EndCharacterOffset=0)">
+    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="621.745,2264.84027058823,125.79,25.2399999999998" Label="UpdateWindow" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=104 StartCharacterOffset=0 EndLineNumber=104 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="310.286666666667,1343.04,123.676666666667,25.96" Label="___fnDWORD@4">
+    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="763.036666666667,1325.75999999999,131.206666666667,25.2399999999998" Label="___fnDWORD@4">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@50" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="787.706666666667,2462.24,68.8366666666666,25.96" Label="vector" SourceLocation="(Assembly=&quot;file:///j:/program files (x86)/microsoft visual studio 12.0/vc/include/vector&quot; StartLineNumber=1199 StartCharacterOffset=0 EndLineNumber=1199 EndCharacterOffset=0)">
+    <Node Id="@50" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="520.735,2430.56057058823,71.8099999999999,25.2399999999998" Label="vector" SourceLocation="(Assembly=&quot;file:///j:/program files (x86)/microsoft visual studio 12.0/vc/include/vector&quot; StartLineNumber=1199 StartCharacterOffset=0 EndLineNumber=1199 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@51" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="218.201666666667,839.400000000001,145.846666666667,25.96" Label="OnUpdateFrameTitle" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdichildwndex.cpp StartLineNumber=588 StartCharacterOffset=0 EndLineNumber=588 EndCharacterOffset=0)">
+    <Node Id="@51" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="721.851666666667,828.599999999997,155.576666666667,25.24" Label="OnUpdateFrameTitle" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdichildwndex.cpp StartLineNumber=588 StartCharacterOffset=0 EndLineNumber=588 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="203.418333333333,951.320000000001,175.413333333333,25.96" Label="UpdateMDITabbedGroups" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1316 StartCharacterOffset=0 EndLineNumber=1316 EndCharacterOffset=0)">
+    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="705.801666666667,939.079999999996,187.676666666667,25.24" Label="UpdateMDITabbedGroups" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1316 StartCharacterOffset=0 EndLineNumber=1316 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@53" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="241.448333333333,895.360000000001,99.3533333333334,25.96" Label="UpdateTabs" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1118 StartCharacterOffset=0 EndLineNumber=1118 EndCharacterOffset=0)">
+    <Node Id="@53" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="747.168333333333,883.839999999997,104.943333333333,25.24" Label="UpdateTabs" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1118 StartCharacterOffset=0 EndLineNumber=1118 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@54" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="787.881666666667,2350.32,68.4866666666667,25.96" Label="Epoch" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/cga.cpp StartLineNumber=148 StartCharacterOffset=0 EndLineNumber=148 EndCharacterOffset=0)">
+    <Node Id="@54" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="520.991666666667,2320.08037058823,71.2966666666666,25.2399999999998" Label="Epoch" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/cga.cpp StartLineNumber=148 StartCharacterOffset=0 EndLineNumber=148 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@55" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="217.968333333334,2126.48,70.3133333333334,25.96" Label="Attach" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wingdi.cpp StartLineNumber=1112 StartCharacterOffset=0 EndLineNumber=1112 EndCharacterOffset=0)">
+    <Node Id="@55" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="18.9283333333337,2099.11999999999,73.4233333333333,25.2399999999998" Label="Attach" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wingdi.cpp StartLineNumber=1112 StartCharacterOffset=0 EndLineNumber=1112 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@56" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="242.205,1119.2,97.84,25.96" Label="SetLocation" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasetabctrl.cpp StartLineNumber=2607 StartCharacterOffset=0 EndLineNumber=2607 EndCharacterOffset=0)">
+    <Node Id="@56" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="749.975,1104.8,103.33,25.2399999999998" Label="SetLocation" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasetabctrl.cpp StartLineNumber=2607 StartCharacterOffset=0 EndLineNumber=2607 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@57" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="672.041666666667,1902.64,86.1666666666665,25.96" Label="OnCreate" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/mainfrm.cpp StartLineNumber=131 StartCharacterOffset=0 EndLineNumber=131 EndCharacterOffset=0)">
+    <Node Id="@57" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="270.386666666667,1878.15957058823,90.5066666666667,25.2399999999998" Label="OnCreate" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/mainfrm.cpp StartLineNumber=131 StartCharacterOffset=0 EndLineNumber=131 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@58" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="766.816666666667,1007.28,136.616666666667,25.96" Label="IsDialogMessageW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winocc.cpp StartLineNumber=192 StartCharacterOffset=0 EndLineNumber=192 EndCharacterOffset=0)">
+    <Node Id="@58" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="443.881666666667,994.319999999996,145.516666666667,25.24" Label="IsDialogMessageW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winocc.cpp StartLineNumber=192 StartCharacterOffset=0 EndLineNumber=192 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@59" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="770.69,951.320000000001,128.87,25.96" Label="PreTranslateInput" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=4589 StartCharacterOffset=0 EndLineNumber=4589 EndCharacterOffset=0)">
+    <Node Id="@59" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="447.973333333333,939.079999999996,137.333333333333,25.24" Label="PreTranslateInput" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=4589 StartCharacterOffset=0 EndLineNumber=4589 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="464.861666666667,1343.04,186.526666666667,25.96" Label="___fnINLPCREATESTRUCT@4">
+    <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="532.755,1325.75999999999,199.77,25.2399999999998" Label="___fnINLPCREATESTRUCT@4">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@61" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,671.52,136.25,25.96" Label="OnOpenDocument" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doccore.cpp StartLineNumber=755 StartCharacterOffset=0 EndLineNumber=755 EndCharacterOffset=0)">
+    <Node Id="@61" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="872.181666666667,662.879999999997,144.916666666667,25.24" Label="OnOpenDocument" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doccore.cpp StartLineNumber=755 StartCharacterOffset=0 EndLineNumber=755 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@62" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="285.918333333334,2070.52,110.413333333333,25.96" Label="LoadBitmapW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin1.inl StartLineNumber=212 StartCharacterOffset=0 EndLineNumber=212 EndCharacterOffset=0)">
+    <Node Id="@62" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="276.12,2043.87999999999,117.04,25.2399999999998" Label="LoadBitmapW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin1.inl StartLineNumber=212 StartCharacterOffset=0 EndLineNumber=212 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@63" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="387.523333333334,1958.6,79.2033333333334,25.96" Label="OnDraw" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/my004view.cpp StartLineNumber=116 StartCharacterOffset=0 EndLineNumber=116 EndCharacterOffset=0)">
+    <Node Id="@63" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="383.138333333333,1933.39967058823,83.0033333333333,25.2399999999998" Label="OnDraw" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/my004view.cpp StartLineNumber=116 StartCharacterOffset=0 EndLineNumber=116 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@65" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="732.638333333334,727.48,204.973333333333,25.96" Label="AfxInternalPreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=232 StartCharacterOffset=0 EndLineNumber=232 EndCharacterOffset=0)">
+    <Node Id="@65" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="381.471666666667,718.119999999997,220.336666666667,25.24" Label="AfxInternalPreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=232 StartCharacterOffset=0 EndLineNumber=232 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@66" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="732.79,615.56,164.67,25.96" Label="AfxPreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=251 StartCharacterOffset=0 EndLineNumber=251 EndCharacterOffset=0)">
+    <Node Id="@66" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="425.473333333333,607.639999999998,176.333333333333,25.24" Label="AfxPreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=251 StartCharacterOffset=0 EndLineNumber=251 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@67" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="761.291666666667,895.360000000001,147.666666666667,25.96" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasepane.cpp StartLineNumber=1057 StartCharacterOffset=0 EndLineNumber=1057 EndCharacterOffset=0)">
+    <Node Id="@67" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="437.816666666667,883.839999999997,157.646666666667,25.24" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasepane.cpp StartLineNumber=1057 StartCharacterOffset=0 EndLineNumber=1057 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@68" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="761.291666666667,839.400000000001,147.666666666667,25.96" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=4277 StartCharacterOffset=0 EndLineNumber=4277 EndCharacterOffset=0)">
+    <Node Id="@68" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="437.816666666667,828.599999999997,157.646666666667,25.24" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=4277 StartCharacterOffset=0 EndLineNumber=4277 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@69" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="741.291666666667,671.52,147.666666666667,25.96" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=776 StartCharacterOffset=0 EndLineNumber=776 EndCharacterOffset=0)">
+    <Node Id="@69" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="434.816666666667,662.879999999997,157.646666666667,25.24" Label="PreTranslateMessage" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/thrdcore.cpp StartLineNumber=776 StartCharacterOffset=0 EndLineNumber=776 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="430.153333333334,1119.2,159.943333333333,25.96" Label="__CreateWindowEx@52">
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1012.24166666667,1104.8,170.796666666667,25.2399999999998" Label="__CreateWindowEx@52">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@70" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="238.576666666667,1063.24,105.096666666667,25.96" Label="ApplyParams" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=306 StartCharacterOffset=0 EndLineNumber=306 EndCharacterOffset=0)">
+    <Node Id="@70" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="743.988333333333,1049.56,111.303333333333,25.2399999999998" Label="ApplyParams" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=306 StartCharacterOffset=0 EndLineNumber=306 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@71" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="229.596666666667,1007.28,123.056666666667,25.96" Label="CreateTabGroup" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1077 StartCharacterOffset=0 EndLineNumber=1077 EndCharacterOffset=0)">
+    <Node Id="@71" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="734.288333333333,994.319999999996,130.703333333333,25.24" Label="CreateTabGroup" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiclientareawnd.cpp StartLineNumber=1077 StartCharacterOffset=0 EndLineNumber=1077 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@72" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="390.245,2294.36,73.76,25.96" Label="Render" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/ccontroller.cpp StartLineNumber=322 StartCharacterOffset=0 EndLineNumber=322 EndCharacterOffset=0)">
+    <Node Id="@72" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="386.086666666667,2264.83999999999,77.1066666666667,25.2399999999998" Label="Render" SourceLocation="(Assembly=file:///c:/users/dell-660/desktop/ai1/ai1/ccontroller.cpp StartLineNumber=328 StartCharacterOffset=0 EndLineNumber=328 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@74" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="340.943333333333,559.6,138.363333333333,25.96" Label="OpenDocumentFile" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/docmulti.cpp StartLineNumber=108 StartCharacterOffset=0 EndLineNumber=108 EndCharacterOffset=0)">
+    <Node Id="@74" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="918.983333333333,552.399999999998,147.313333333333,25.24" Label="OpenDocumentFile" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/docmulti.cpp StartLineNumber=108 StartCharacterOffset=0 EndLineNumber=108 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@75" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="222.903333333333,727.48,136.443333333333,25.96" Label="InitialUpdateFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=835 StartCharacterOffset=0 EndLineNumber=835 EndCharacterOffset=0)">
+    <Node Id="@75" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="726.91,718.119999999997,145.46,25.24" Label="InitialUpdateFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=835 StartCharacterOffset=0 EndLineNumber=835 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="427.038333333334,1063.24,166.173333333333,25.96" Label="_CreateWindowExW@48">
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1008.82666666667,1049.56,177.626666666667,25.2399999999998" Label="_CreateWindowExW@48">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@80" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="534.658333333334,1902.64,106.933333333333,25.96" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=383 StartCharacterOffset=0 EndLineNumber=383 EndCharacterOffset=0)">
+    <Node Id="@80" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.13,1878.15957058823,113.02,25.2399999999998" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winfrm.cpp StartLineNumber=383 StartCharacterOffset=0 EndLineNumber=383 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@81" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="249.658333333334,1958.6,106.933333333333,25.96" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmdi.cpp StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
+    <Node Id="@81" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="87.1300000000002,1933.39999999999,113.02,25.2399999999998" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmdi.cpp StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@82" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="288.658333333334,1902.64,106.933333333333,25.96" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiframewndex.cpp StartLineNumber=406 StartCharacterOffset=0 EndLineNumber=406 EndCharacterOffset=0)">
+    <Node Id="@82" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="127.13,1878.15999999999,113.02,25.2399999999998" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxmdiframewndex.cpp StartLineNumber=406 StartCharacterOffset=0 EndLineNumber=406 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@83" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="500.658333333334,1958.6,106.933333333333,25.96" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2780 StartCharacterOffset=0 EndLineNumber=2780 EndCharacterOffset=0)">
+    <Node Id="@83" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="497.13,1933.39967058823,113.02,25.2399999999998" Label="OnCommand" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2780 StartCharacterOffset=0 EndLineNumber=2780 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@85" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="760.036666666667,783.440000000001,150.176666666667,25.96" Label="WalkPreTranslateTree" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=3360 StartCharacterOffset=0 EndLineNumber=3360 EndCharacterOffset=0)">
+    <Node Id="@85" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="436.37,773.359999999997,160.54,25.24" Label="WalkPreTranslateTree" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=3360 StartCharacterOffset=0 EndLineNumber=3360 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@86" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="788.921666666667,1902.64,108.406666666667,25.96" Label="OnLButtonUp" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=2482 StartCharacterOffset=0 EndLineNumber=2482 EndCharacterOffset=0)">
+    <Node Id="@86" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="647.22,1878.15999999999,114.84,25.2399999999998" Label="OnLButtonUp" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxtoolbar.cpp StartLineNumber=2482 StartCharacterOffset=0 EndLineNumber=2482 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@87" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="97.9433333333335,615.56,138.363333333333,25.96" Label="OpenDocumentFile" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/docmulti.cpp StartLineNumber=168 StartCharacterOffset=0 EndLineNumber=168 EndCharacterOffset=0)">
+    <Node Id="@87" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="694.983333333333,607.639999999998,147.313333333333,25.24" Label="OpenDocumentFile" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/docmulti.cpp StartLineNumber=168 StartCharacterOffset=0 EndLineNumber=168 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@88" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="222.903333333334,671.52,136.443333333333,25.96" Label="InitialUpdateFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doctempl.cpp StartLineNumber=407 StartCharacterOffset=0 EndLineNumber=407 EndCharacterOffset=0)">
+    <Node Id="@88" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="695.91,662.879999999997,145.46,25.24" Label="InitialUpdateFrame" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/doctempl.cpp StartLineNumber=407 StartCharacterOffset=0 EndLineNumber=407 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@89" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="231.55,1175.16,119.15,25.96" Label="RedrawWindow" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=139 StartCharacterOffset=0 EndLineNumber=139 EndCharacterOffset=0)">
+    <Node Id="@89" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="738.346666666667,1160.04,126.586666666667,25.2399999999998" Label="RedrawWindow" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=139 StartCharacterOffset=0 EndLineNumber=139 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="463.915,1399,188.42,25.96" Label="_DispatchClientMessage@24">
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="532.773333333334,1380.99999999999,201.733333333333,25.2399999999998" Label="_DispatchClientMessage@24">
       <Category Ref="CallStackEntry" />
     </Node>
-    <Node Id="@91" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="289.553333333334,1734.76,103.143333333333,25.96" Label="WindowProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasepane.cpp StartLineNumber=1013 StartCharacterOffset=0 EndLineNumber=1013 EndCharacterOffset=0)">
+    <Node Id="@91" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="182.065,1712.43999999999,109.15,25.2399999999998" Label="WindowProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxbasepane.cpp StartLineNumber=1013 StartCharacterOffset=0 EndLineNumber=1013 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@92" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="782.921666666667,1958.6,120.406666666667,25.96" Label="SendMessageW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=29 StartCharacterOffset=0 EndLineNumber=29 EndCharacterOffset=0)">
+    <Node Id="@92" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="640.751666666667,1933.39999999999,127.776666666667,25.2399999999998" Label="SendMessageW" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/include/afxwin2.inl StartLineNumber=29 StartCharacterOffset=0 EndLineNumber=29 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@93" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="372.553333333334,1790.72,103.143333333333,25.96" Label="WindowProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2093 StartCharacterOffset=0 EndLineNumber=2093 EndCharacterOffset=0)">
+    <Node Id="@93" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="127.065,1767.67999999999,109.15,25.2399999999998" Label="WindowProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=2093 StartCharacterOffset=0 EndLineNumber=2093 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@94" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="294.356666666667,1622.84,101.536666666667,25.96" Label="AfxWndProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=434 StartCharacterOffset=0 EndLineNumber=434 EndCharacterOffset=0)">
+    <Node Id="@94" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="96.8700000000001,1601.95999999999,107.54,25.2399999999998" Label="AfxWndProc" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/wincore.cpp StartLineNumber=434 StartCharacterOffset=0 EndLineNumber=434 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@95" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="282.178333333334,1566.88,125.893333333333,25.96" Label="AfxWndProcBase" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxstate.cpp StartLineNumber=298 StartCharacterOffset=0 EndLineNumber=298 EndCharacterOffset=0)">
+    <Node Id="@95" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="86.6066666666668,1546.71999999999,134.066666666667,25.2399999999998" Label="AfxWndProcBase" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/afxstate.cpp StartLineNumber=298 StartCharacterOffset=0 EndLineNumber=298 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@96" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="464.045,279.8,92.1599999999999,25.96" Label="wWinMain" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/appmodul.cpp StartLineNumber=25 StartCharacterOffset=0 EndLineNumber=25 EndCharacterOffset=0)">
+    <Node Id="@96" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1049.03333333333,276.199999999999,97.2133333333331,25.24" Label="wWinMain" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/appmodul.cpp StartLineNumber=25 StartCharacterOffset=0 EndLineNumber=25 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@97" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="459.88,335.76,100.49,25.96" Label="AfxWinMain" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmain.cpp StartLineNumber=45 StartCharacterOffset=0 EndLineNumber=45 EndCharacterOffset=0)">
+    <Node Id="@97" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1044.42666666667,331.439999999999,106.426666666667,25.24" Label="AfxWinMain" SourceLocation="(Assembly=file:///f:/dd/vctools/vc7libs/ship/atlmfc/src/mfc/winmain.cpp StartLineNumber=45 StartCharacterOffset=0 EndLineNumber=45 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@99" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="462.821666666667,671.52,94.6066666666666,25.96" Label="LoadFrame" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/mainfrm.cpp StartLineNumber=221 StartCharacterOffset=0 EndLineNumber=221 EndCharacterOffset=0)">
+    <Node Id="@99" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1047.77,662.879999999997,99.7399999999998,25.24" Label="LoadFrame" SourceLocation="(Assembly=file:///e:/20170713/ai1/ai1/mainfrm.cpp StartLineNumber=221 StartCharacterOffset=0 EndLineNumber=221 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
   </Nodes>
   <Links>
-    <Link Source="(Name=&quot;__RtlUserThreadStart@8&quot; @23 @2)" Target="@24" Category="CallStackDirectCall" Bounds="510.125,25.9599990844727,0,21" />
-    <Link Source="@10" Target="@11" Category="CallStackDirectCall" Bounds="737.845520019531,1145.16003417969,74.10009765625,26.92626953125" />
-    <Link Source="@100" Target="@109" Category="CallStackDirectCall" Bounds="510.125,865.359985351563,0,21" />
-    <Link Source="@101" Target="@100" Category="CallStackDirectCall" Bounds="510.125,809.400024414063,0,21" />
-    <Link Source="@102" Target="@101" Category="CallStackDirectCall" Bounds="510.125,753.440002441406,0,21" />
-    <Link Source="@103" Target="@108" Category="CallStackDirectCall" Bounds="554.125,2152.43994140625,0,21" />
-    <Link Source="@104" Target="@105" Category="CallStackDirectCall" Bounds="554.125,2040.52001953125,0,21" />
-    <Link Source="@105" Target="@103" Category="CallStackDirectCall" Bounds="554.125,2096.47998046875,0,21" />
-    <Link Source="@106" Target="@46" Category="CallStackDirectCall" Bounds="465.125,1872.64001464844,0,21" />
-    <Link Source="@106" Target="@57" Category="CallStackDirectCall" Bounds="514.818542480469,1870.78344726563,148.4404296875,33.2269287109375" />
-    <Link Source="@106" Target="@80" Category="CallStackDirectCall" Bounds="493.655029296875,1872.64001464844,57.7479248046875,26.27294921875" />
-    <Link Source="@106" Target="@82" Category="CallStackDirectCall" Bounds="378.847045898438,1872.64001464844,57.7479248046875,26.27294921875" />
-    <Link Source="@106" Target="@86" Category="CallStackDirectCall" Bounds="515.044982910156,1866.55053710938,264.99658203125,37.79150390625" />
-    <Link Source="@107" Target="@91" Category="CallStackDirectCall" Bounds="342.694488525391,1704.76000976563,1.50271606445313,21.02294921875" />
-    <Link Source="@107" Target="@93" Category="CallStackDirectCall" Bounds="363.449157714844,1704.76000976563,60.6758422851563,76.9599609375" />
-    <Link Source="@108" Target="@45" Category="CallStackDirectCall" Bounds="554.125,2208.39990234375,0,21" />
-    <Link Source="@109" Target="@110" Category="CallStackDirectCall" Bounds="510.125,921.320007324219,0,21" />
-    <Link Source="@11" Target="@16" Category="CallStackDirectCall" Bounds="768.333312988281,1201.11999511719,58.7977905273438,26.3226318359375" />
-    <Link Source="@11" Target="@21" Category="CallStackDirectCall" Bounds="856.125,1201.11999511719,0,244.839965820313" />
-    <Link Source="@110" Target="@111" Category="CallStackDirectCall" Bounds="510.125,977.280029296875,0,21" />
-    <Link Source="@111" Target="@8" Category="CallStackDirectCall" Bounds="510.125,1033.23999023438,0,21" />
-    <Link Source="@12" Target="@95" Category="CallStackDirectCall" Bounds="417.009338378906,1533.92114257813,316.41259765625,37.434326171875" />
-    <Link Source="@13" Target="@10" Category="CallStackDirectCall" Bounds="735.908081054688,1089.19995117188,51.4703369140625,25.948486328125" />
-    <Link Source="@14" Target="@25" Category="CallStackDirectCall" Bounds="187.906311035156,1316.81787109375,147.983856201172,1089.46215820313" />
-    <Link Source="@15" Target="@25" Category="CallStackDirectCall" Bounds="412.474639892578,1257.07995605469,65.6410827636719,26.617919921875" />
-    <Link Source="@16" Target="@25" Category="CallStackDirectCall" Bounds="464.288177490234,1257.07995605469,183.566253662109,28.6138916015625" />
-    <Link Source="@17" Target="@25" Category="CallStackDirectCall" Bounds="309.913055419922,1257.07995605469,36.0191650390625,24.8843994140625" />
-    <Link Source="@18" Target="@19" Category="CallStackDirectCall" Bounds="852.711853027344,2040.52001953125,48.8673095703125,25.79833984375" />
-    <Link Source="@19" Target="@21" Category="CallStackDirectCall" Bounds="881.529907226563,1486.16638183594,52.5950927734375,584.353637695313" />
-    <Link Source="@20" Target="@14" Category="CallStackDirectCall" Bounds="279.416290283203,2374.064453125,204.113067626953,31.123046875" />
-    <Link Source="@21" Target="@12" Category="CallStackDirectCall" Bounds="831.9951171875,1480.92004394531,15.3157348632813,22.5543212890625" />
-    <Link Source="@22" Target="@15" Category="CallStackDirectCall" Bounds="510.125,1201.11999511719,0,21" />
-    <Link Source="@24" Target="@3" Category="CallStackDirectCall" Bounds="510.125,81.9199981689453,0,21" />
-    <Link Source="@25" Target="@5" Category="CallStackDirectCall" Bounds="372.125,1313.0400390625,0,21" />
-    <Link Source="@25" Target="@6" Category="CallStackDirectCall" Bounds="415.267944335938,1313.0400390625,91.095703125,27.406982421875" />
-    <Link Source="@27" Target="@54" Category="CallStackDirectCall" Bounds="822.125,2320.32006835938,0,21" />
-    <Link Source="@3" Target="@36" Category="CallStackDirectCall" Bounds="510.125,137.880004882813,0,21" />
-    <Link Source="@30" Target="@32" Category="CallStackDirectCall" Bounds="167.125,1313.0400390625,0,76.9599609375" />
-    <Link Source="@31" Target="@42" Category="CallStackDirectCall" Bounds="170.140365600586,1480.92004394531,4.93272399902344,21.2333984375" />
-    <Link Source="@32" Target="@31" Category="CallStackDirectCall" Bounds="167.125,1424.9599609375,0,21" />
-    <Link Source="@34" Target="@96" Category="CallStackDirectCall" Bounds="510.125,249.800003051758,0,20.9999847412109" />
-    <Link Source="@35" Target="@74" Category="CallStackDirectCall" Bounds="441.174041748047,529.599975585938,45.7558288574219,25.60498046875" />
-    <Link Source="@35" Target="@99" Category="CallStackDirectCall" Bounds="510.125,529.599975585938,0,132.920043945313" />
-    <Link Source="@36" Target="@34" Category="CallStackDirectCall" Bounds="510.125,193.839996337891,0,21" />
-    <Link Source="@37" Target="@10" Category="CallStackDirectCall" Bounds="702.125,585.559997558594,0,524.639953613281" />
-    <Link Source="@37" Target="@66" Category="CallStackDirectCall" Bounds="728.335510253906,585.559997558594,52.5137939453125,26.0059204101563" />
-    <Link Source="@38" Target="@40" Category="CallStackDirectCall" Bounds="569.125,417.679992675781,0,21" />
-    <Link Source="@39" Target="@37" Category="CallStackDirectCall" Bounds="659.1142578125,529.599975585938,23.6552124023438,23.6383666992188" />
-    <Link Source="@40" Target="@39" Category="CallStackDirectCall" Bounds="586.985229492188,473.640014648438,33.9990844726563,24.7089233398438" />
-    <Link Source="@42" Target="@55" Category="CallStackDirectCall" Bounds="189.171096801758,1536.88000488281,62.6194610595703,580.616577148438" />
-    <Link Source="@43" Target="@62" Category="CallStackDirectCall" Bounds="350.594818115234,2040.52001953125,9.73138427734375,21.78271484375" />
-    <Link Source="@44" Target="@50" Category="CallStackDirectCall" Bounds="822.125,2432.23999023438,0,21" />
-    <Link Source="@45" Target="(Name=CWnd::InvalidateRect @28 @41 OverloadingParameters=[(Type=&quot;const tagRECT *&quot; Name=lpRect),(@33 Name=bErase)] @2)" Category="CallStackDirectCall" Bounds="587.757934570313,2264.36010742188,69.3377075195313,26.759521484375" />
-    <Link Source="@45" Target="@27" Category="CallStackDirectCall" Bounds="612.952026367188,2263.66333007813,162.956298828125,34.0263671875" />
-    <Link Source="@45" Target="@48" Category="CallStackDirectCall" Bounds="554.125,2264.36010742188,0,21" />
-    <Link Source="@45" Target="@72" Category="CallStackDirectCall" Bounds="464.818756103516,2264.36010742188,59.8484191894531,26.370849609375" />
-    <Link Source="@46" Target="@63" Category="CallStackDirectCall" Bounds="440.995147705078,1928.59997558594,15.3157043457031,22.554443359375" />
-    <Link Source="@47" Target="@51" Category="CallStackDirectCall" Bounds="291.125,809.400024414063,0,21" />
-    <Link Source="@48" Target="@20" Category="CallStackDirectCall" Bounds="554.125,2320.32006835938,0,21" />
-    <Link Source="@5" Target="@9" Category="CallStackDirectCall" Bounds="415.267944335938,1369,91.095703125,27.4071044921875" />
-    <Link Source="@50" Target="(Name=std::_Debug_message @90 @41 OverloadingParameters=[(@60 Name=message),(@60 Name=file),(@49 Name=line)] @2)" Category="CallStackDirectCall" Bounds="822.125,2488.19995117188,0,21" />
-    <Link Source="@51" Target="@53" Category="CallStackDirectCall" Bounds="291.125,865.359985351563,0,21" />
-    <Link Source="@52" Target="@71" Category="CallStackDirectCall" Bounds="291.125,977.280029296875,0,21" />
-    <Link Source="@53" Target="@52" Category="CallStackDirectCall" Bounds="291.125,921.320007324219,0,21" />
-    <Link Source="@54" Target="@44" Category="CallStackDirectCall" Bounds="822.125,2376.28002929688,0,21" />
-    <Link Source="@56" Target="@89" Category="CallStackDirectCall" Bounds="291.125,1145.16003417969,0,21" />
-    <Link Source="@57" Target="(Name=CMFCToolBar::SetUserImages @28 @33 OverloadingParameters=[(Type=&quot;CMFCToolBarImages *&quot; Name=pUserImages)] @2)" Category="CallStackDirectCall" Bounds="702.79296875,1928.59997558594,7.6929931640625,21.5250244140625" />
-    <Link Source="@58" Target="@13" Category="CallStackDirectCall" Bounds="821.520812988281,1033.23999023438,8.50128173828125,21.6240234375" />
-    <Link Source="@59" Target="@58" Category="CallStackDirectCall" Bounds="835.125,977.280029296875,0,21" />
-    <Link Source="@6" Target="@9" Category="CallStackDirectCall" Bounds="558.125,1369,0,21" />
-    <Link Source="@61" Target="(Name=Cai1Doc::Serialize @26 @41 OverloadingParameters=[(Type=&quot;CArchive &amp;&quot; Name=ar)] @2)" Category="CallStackDirectCall" Bounds="68.125,697.47998046875,0,21" />
-    <Link Source="@62" Target="@55" Category="CallStackDirectCall" Bounds="281.131225585938,2096.47998046875,39.5820617675781,25.170654296875" />
-    <Link Source="@63" Target="@43" Category="CallStackDirectCall" Bounds="386.906066894531,1984.56005859375,26.0698852539063,23.9158935546875" />
-    <Link Source="@63" Target="@72" Category="CallStackDirectCall" Bounds="427.125,1984.56005859375,0,300.800048828125" />
-    <Link Source="@65" Target="@85" Category="CallStackDirectCall" Bounds="835.125,753.440002441406,0,21" />
-    <Link Source="@66" Target="@69" Category="CallStackDirectCall" Bounds="815.125,641.52001953125,0,21" />
-    <Link Source="@67" Target="@59" Category="CallStackDirectCall" Bounds="835.125,921.320007324219,0,21" />
-    <Link Source="@68" Target="@67" Category="CallStackDirectCall" Bounds="835.125,865.359985351563,0,21" />
-    <Link Source="@69" Target="@65" Category="CallStackDirectCall" Bounds="819.764038085938,697.47998046875,7.6929931640625,21.5250244140625" />
-    <Link Source="@7" Target="@22" Category="CallStackDirectCall" Bounds="510.125,1145.16003417969,0,21" />
-    <Link Source="@70" Target="@56" Category="CallStackDirectCall" Bounds="291.125,1089.19995117188,0,21" />
-    <Link Source="@71" Target="@70" Category="CallStackDirectCall" Bounds="291.125,1033.23999023438,0,21" />
-    <Link Source="@72" Target="(Name=CController::RenderSweepers @26 @41 OverloadingParameters=[(Type=&quot;HDC__ * &amp;&quot; Name=surface),(Type=&quot;std::vector&lt;CMinesweeper,std::allocator&lt;CMinesweeper&gt; &gt; &amp;&quot; Name=sweepers)] @2)" Category="CallStackDirectCall" Bounds="404.344543457031,2320.32006835938,14.4302062988281,22.430908203125" />
-    <Link Source="@74" Target="@87" Category="CallStackDirectCall" Bounds="232.259628295898,585.559997558594,121.501174926758,27.9802856445313" />
-    <Link Source="@75" Target="@47" Category="CallStackDirectCall" Bounds="291.125,753.440002441406,0,21" />
-    <Link Source="@8" Target="@7" Category="CallStackDirectCall" Bounds="510.125,1089.19995117188,0,21" />
-    <Link Source="@80" Target="@83" Category="CallStackDirectCall" Bounds="566.6845703125,1928.59997558594,13.5540771484375,22.3084716796875" />
-    <Link Source="@81" Target="@107" Category="CallStackDirectCall" Bounds="258.125,1709.62878417969,59.2508544921875,248.97119140625" />
-    <Link Source="@82" Target="@81" Category="CallStackDirectCall" Bounds="317.317016601563,1928.59997558594,15.7618713378906,22.6163330078125" />
-    <Link Source="@83" Target="@104" Category="CallStackDirectCall" Bounds="554.125,1984.56005859375,0,21" />
-    <Link Source="@85" Target="@68" Category="CallStackDirectCall" Bounds="835.125,809.400024414063,0,21" />
-    <Link Source="@86" Target="@92" Category="CallStackDirectCall" Bounds="843.125,1928.59997558594,0,21" />
-    <Link Source="@87" Target="@30" Category="CallStackDirectCall" Bounds="167.125,641.52001953125,0,636.559936523438" />
-    <Link Source="@87" Target="@61" Category="CallStackDirectCall" Bounds="98.9231338500977,641.52001953125,45.2386856079102,25.5712280273438" />
-    <Link Source="@87" Target="@88" Category="CallStackDirectCall" Bounds="195.886978149414,641.52001953125,58.2727203369141,26.2979125976563" />
-    <Link Source="@88" Target="@75" Category="CallStackDirectCall" Bounds="291.125,697.47998046875,0,21" />
-    <Link Source="@89" Target="@17" Category="CallStackDirectCall" Bounds="291.125,1201.11999511719,0,21" />
-    <Link Source="@9" Target="@21" Category="CallStackDirectCall" Bounds="627.246520996094,1424.9599609375,150.911560058594,28.3389892578125" />
-    <Link Source="@91" Target="@93" Category="CallStackDirectCall" Bounds="360.376953125,1760.71997070313,37.0337219238281,24.96875" />
-    <Link Source="@92" Target="@18" Category="CallStackDirectCall" Bounds="833.934448242188,1984.56005859375,5.7113037109375,21.306884765625" />
-    <Link Source="@93" Target="@106" Category="CallStackDirectCall" Bounds="433.635009765625,1816.68005371094,16.6608581542969,22.739990234375" />
-    <Link Source="@94" Target="@107" Category="CallStackDirectCall" Bounds="345.125,1648.80004882813,0,21" />
-    <Link Source="@95" Target="@94" Category="CallStackDirectCall" Bounds="345.125,1592.83996582031,0,21" />
-    <Link Source="@96" Target="@97" Category="CallStackDirectCall" Bounds="510.125,305.760009765625,0,21" />
-    <Link Source="@97" Target="@35" Category="CallStackDirectCall" Bounds="510.125,361.720001220703,0,132.920013427734" />
-    <Link Source="@97" Target="@38" Category="CallStackDirectCall" Bounds="523.810119628906,361.720001220703,25.0997924804688,23.8064880371094" />
-    <Link Source="@99" Target="@102" Category="CallStackDirectCall" Bounds="510.125,697.47998046875,0,21" />
+    <Link Source="(Name=&quot;__RtlUserThreadStart@8&quot; @23 @2)" Target="@24" Category="CallStackDirectCall" Bounds="1097.64001464844,25.2399997711182,0,21.0000019073486" />
+    <Link Source="@10" Target="@11" Category="CallStackDirectCall" Bounds="539.860778808594,1130.0400390625,62.8512573242188,26.5030517578125" />
+    <Link Source="@100" Target="@109" Category="CallStackDirectCall" Bounds="1097.64001464844,853.840026855469,0,21" />
+    <Link Source="@101" Target="@100" Category="CallStackDirectCall" Bounds="1097.64001464844,798.599975585938,0,21" />
+    <Link Source="@102" Target="@101" Category="CallStackDirectCall" Bounds="1097.64001464844,743.359985351563,0,21" />
+    <Link Source="@103" Target="@108" Category="CallStackDirectCall" Bounds="536.64,2124.35997058823,1.13686837721616E-13,21.0000999999997" />
+    <Link Source="@104" Target="@105" Category="CallStackDirectCall" Bounds="525.64,2013.87977058823,0,21.0000999999997" />
+    <Link Source="@105" Target="@103" Category="CallStackDirectCall" Bounds="528.153029484016,2069.11987058823,4.21627433068113,21.1734014231147" />
+    <Link Source="@106" Target="@46" Category="CallStackDirectCall" Bounds="432.64,1848.15947058823,0,21.0001000000002" />
+    <Link Source="@106" Target="@57" Category="CallStackDirectCall" Bounds="350.507999120735,1848.15947058823,55.4025054583663,26.1576063399204" />
+    <Link Source="@106" Target="@80" Category="CallStackDirectCall" Bounds="461.882524904915,1848.15947058823,61.251622595108,26.4339512290314" />
+    <Link Source="@106" Target="@82" Category="CallStackDirectCall" Bounds="247.453995563334,1847.07780437314,133.176159562141,29.5450021996469" />
+    <Link Source="@106" Target="@86" Category="CallStackDirectCall" Bounds="485.155325398993,1846.20479380268,153.925665372355,31.2607216983358" />
+    <Link Source="@107" Target="@91" Category="CallStackDirectCall" Bounds="170.287353515625,1682.43994140625,39.1328582763672,25.1361083984375" />
+    <Link Source="@107" Target="@93" Category="CallStackDirectCall" Bounds="150.639999389648,1682.43994140625,19.5132904052734,77.3914794921875" />
+    <Link Source="@108" Target="@45" Category="CallStackDirectCall" Bounds="540.066858387295,2179.60007058823,5.78781103231211,21.3146173470682" />
+    <Link Source="@109" Target="@110" Category="CallStackDirectCall" Bounds="1097.64001464844,909.080017089844,0,21" />
+    <Link Source="@11" Target="@16" Category="CallStackDirectCall" Bounds="531.79638671875,1185.28002929688,63.3848876953125,26.525634765625" />
+    <Link Source="@11" Target="@21" Category="CallStackDirectCall" Bounds="501.640014648438,1185.28002929688,92.3717041015625,247.5927734375" />
+    <Link Source="@110" Target="@111" Category="CallStackDirectCall" Bounds="1097.64001464844,964.320007324219,0,21" />
+    <Link Source="@111" Target="@8" Category="CallStackDirectCall" Bounds="1097.64001464844,1019.55999755859,0,21.0000610351563" />
+    <Link Source="@12" Target="@95" Category="CallStackDirectCall" Bounds="229.614318847656,1514.51684570313,313.510131835938,36.079833984375" />
+    <Link Source="@13" Target="@10" Category="CallStackDirectCall" Bounds="543.14111328125,1074.80004882813,54.8721313476563,26.1304931640625" />
+    <Link Source="@14" Target="@25" Category="CallStackDirectCall" Bounds="925.640014648438,1304.76000976563,0,1070.56005859375" />
+    <Link Source="@15" Target="@25" Category="CallStackDirectCall" Bounds="973.503662109375,1240.52001953125,84.8416748046875,27.2479248046875" />
+    <Link Source="@16" Target="@25" Category="CallStackDirectCall" Bounds="700.349609375,1240.52001953125,149.737609863281,28.3270263671875" />
+    <Link Source="@17" Target="@25" Category="CallStackDirectCall" Bounds="878.575927734375,1240.52001953125,26.45703125,23.958740234375" />
+    <Link Source="@18" Target="@19" Category="CallStackDirectCall" Bounds="713.998776316113,2013.88007990723,52.2250705454796,25.9902747650456" />
+    <Link Source="@19" Target="@21" Category="CallStackDirectCall" Bounds="680.103576660156,1464.32177734375,119.536437988281,579.558227539063" />
+    <Link Source="@20" Target="@14" Category="CallStackDirectCall" Bounds="843.856506347656,2345.32006835938,49.5857543945313,25.840576171875" />
+    <Link Source="@21" Target="@12" Category="CallStackDirectCall" Bounds="633.640014648438,1461.47998046875,0,21" />
+    <Link Source="@22" Target="@15" Category="CallStackDirectCall" Bounds="1097.64001464844,1185.28002929688,0,21" />
+    <Link Source="@24" Target="@3" Category="CallStackDirectCall" Bounds="1097.64001464844,80.4800033569336,0,21" />
+    <Link Source="@25" Target="@5" Category="CallStackDirectCall" Bounds="858.62109375,1295.76000976563,44.8585205078125,25.5462646484375" />
+    <Link Source="@25" Target="@6" Category="CallStackDirectCall" Bounds="708.422302246094,1295.76000976563,150.279602050781,28.33251953125" />
+    <Link Source="@27" Target="@54" Category="CallStackDirectCall" Bounds="552.782286129098,2290.08027058823,1.90411879174724,21.0367424935989" />
+    <Link Source="@3" Target="@36" Category="CallStackDirectCall" Bounds="1097.64001464844,135.720001220703,0,21" />
+    <Link Source="@30" Target="@32" Category="CallStackDirectCall" Bounds="350.640014648438,1295.76000976563,0,76.239990234375" />
+    <Link Source="@31" Target="@42" Category="CallStackDirectCall" Bounds="55.6399993896484,1461.47998046875,0,21" />
+    <Link Source="@32" Target="@31" Category="CallStackDirectCall" Bounds="120.023193359375,1404.01953125,175.079864501953,32.784423828125" />
+    <Link Source="@34" Target="@96" Category="CallStackDirectCall" Bounds="1097.64001464844,246.199996948242,0,21.0000152587891" />
+    <Link Source="@35" Target="@74" Category="CallStackDirectCall" Bounds="1024.59301757813,522.400024414063,49.0589599609375,25.8096313476563" />
+    <Link Source="@35" Target="@99" Category="CallStackDirectCall" Bounds="1097.64001464844,522.400024414063,0,131.47998046875" />
+    <Link Source="@36" Target="@34" Category="CallStackDirectCall" Bounds="1097.64001464844,190.960006713867,0,21" />
+    <Link Source="@37" Target="@10" Category="CallStackDirectCall" Bounds="632.640014648438,577.640014648438,0,518.160034179688" />
+    <Link Source="@37" Target="@66" Category="CallStackDirectCall" Bounds="548.989807128906,577.640014648438,56.4637451171875,26.2105712890625" />
+    <Link Source="@38" Target="@40" Category="CallStackDirectCall" Bounds="1037.64001464844,411.920013427734,0,21" />
+    <Link Source="@39" Target="@37" Category="CallStackDirectCall" Bounds="715.303039550781,520.063110351563,180.20947265625,30.8197021484375" />
+    <Link Source="@40" Target="@39" Category="CallStackDirectCall" Bounds="981.837829589844,467.160003662109,37.0686645507813,24.9716186523438" />
+    <Link Source="@42" Target="@55" Category="CallStackDirectCall" Bounds="55.6399993896484,1516.71997070313,0,573.400146484375" />
+    <Link Source="@43" Target="@62" Category="CallStackDirectCall" Bounds="345.105835745404,2013.88007990723,11.1373613212938,21.9724626115858" />
+    <Link Source="@44" Target="@50" Category="CallStackDirectCall" Bounds="556.64,2400.56047058823,1.13686837721616E-13,21.0001000000002" />
+    <Link Source="@45" Target="(Name=CWnd::InvalidateRect @28 @41 OverloadingParameters=[(Type=&quot;const tagRECT *&quot; Name=lpRect),(@33 Name=bErase)] @2)" Category="CallStackDirectCall" Bounds="613.97565640383,2234.30233207377,155.825384176644,30.2027373061164" />
+    <Link Source="@45" Target="@27" Category="CallStackDirectCall" Bounds="551.64,2234.84017058823,0,21.0000999999997" />
+    <Link Source="@45" Target="@48" Category="CallStackDirectCall" Bounds="582.024811034014,2234.84017058823,63.9187734671284,26.5479657007631" />
+    <Link Source="@45" Target="@72" Category="CallStackDirectCall" Bounds="461.907158014609,2234.84017058823,60.7187741668561,26.4103239427945" />
+    <Link Source="@46" Target="@63" Category="CallStackDirectCall" Bounds="427.757601649294,1903.39957058823,3.05474054414896,21.093021641605" />
+    <Link Source="@47" Target="@51" Category="CallStackDirectCall" Bounds="799.640014648438,798.599975585938,0,21" />
+    <Link Source="@48" Target="@20" Category="CallStackDirectCall" Bounds="715.481721860232,2290.08027058823,64.9868953325499,26.5917260655365" />
+    <Link Source="@5" Target="@9" Category="CallStackDirectCall" Bounds="686.848510742188,1351,97.2422485351563,27.5469970703125" />
+    <Link Source="@50" Target="(Name=std::_Debug_message @90 @41 OverloadingParameters=[(@60 Name=message),(@60 Name=file),(@49 Name=line)] @2)" Category="CallStackDirectCall" Bounds="556.64,2455.80057058823,0,21.0001000000002" />
+    <Link Source="@51" Target="@53" Category="CallStackDirectCall" Bounds="799.640014648438,853.840026855469,0,21" />
+    <Link Source="@52" Target="@71" Category="CallStackDirectCall" Bounds="799.640014648438,964.320007324219,0,21" />
+    <Link Source="@53" Target="@52" Category="CallStackDirectCall" Bounds="799.640014648438,909.080017089844,0,21" />
+    <Link Source="@54" Target="@44" Category="CallStackDirectCall" Bounds="556.64,2345.32037058823,1.13686837721616E-13,21.0001000000002" />
+    <Link Source="@56" Target="@89" Category="CallStackDirectCall" Bounds="801.640014648438,1130.0400390625,0,21" />
+    <Link Source="@57" Target="(Name=CMFCToolBar::SetUserImages @28 @33 OverloadingParameters=[(Type=&quot;CMFCToolBarImages *&quot; Name=pUserImages)] @2)" Category="CallStackDirectCall" Bounds="300.709259351834,1903.39957058823,9.44779430503746,21.7458199785206" />
+    <Link Source="@58" Target="@13" Category="CallStackDirectCall" Bounds="516.640014648438,1019.55999755859,0,21.0000610351563" />
+    <Link Source="@59" Target="@58" Category="CallStackDirectCall" Bounds="516.640014648438,964.320007324219,0,21" />
+    <Link Source="@6" Target="@9" Category="CallStackDirectCall" Bounds="632.868469238281,1351,0.38018798828125,21.00146484375" />
+    <Link Source="@61" Target="(Name=Cai1Doc::Serialize @26 @41 OverloadingParameters=[(Type=&quot;CArchive &amp;&quot; Name=ar)] @2)" Category="CallStackDirectCall" Bounds="944.640014648438,688.119995117188,0,21" />
+    <Link Source="@62" Target="@55" Category="CallStackDirectCall" Bounds="101.180292981385,2067.96159795797,175.571335752642,34.7616706775011" />
+    <Link Source="@63" Target="@43" Category="CallStackDirectCall" Bounds="383.523989044247,1958.63967058823,26.9517421288467,24.0133105225973" />
+    <Link Source="@63" Target="@72" Category="CallStackDirectCall" Bounds="424.639999429462,1958.63967058823,5.47298327546741E-07,297.200599999999" />
+    <Link Source="@65" Target="@85" Category="CallStackDirectCall" Bounds="497.351440429688,743.359985351563,9.86630249023438,21.8005981445313" />
+    <Link Source="@66" Target="@69" Category="CallStackDirectCall" Bounds="513.640014648438,632.880004882813,0,21" />
+    <Link Source="@67" Target="@59" Category="CallStackDirectCall" Bounds="516.640014648438,909.080017089844,0,21" />
+    <Link Source="@68" Target="@67" Category="CallStackDirectCall" Bounds="516.640014648438,853.840026855469,0,21" />
+    <Link Source="@69" Target="@65" Category="CallStackDirectCall" Bounds="499.996063232422,688.119995117188,8.61785888671875,21.6387329101563" />
+    <Link Source="@7" Target="@22" Category="CallStackDirectCall" Bounds="1097.64001464844,1130.0400390625,0,21" />
+    <Link Source="@70" Target="@56" Category="CallStackDirectCall" Bounds="800.096923828125,1074.80004882813,0.760498046875,21.005859375" />
+    <Link Source="@71" Target="@70" Category="CallStackDirectCall" Bounds="799.640014648438,1019.55999755859,0,21.0000610351563" />
+    <Link Source="@72" Target="(Name=CController::RenderSweepers @26 @41 OverloadingParameters=[(Type=&quot;HDC__ * &amp;&quot; Name=surface),(Type=&quot;std::vector&lt;CMinesweeper,std::allocator&lt;CMinesweeper&gt; &gt; &amp;&quot; Name=sweepers)] @2)" Category="CallStackDirectCall" Bounds="424.639999389648,2290.08027058823,0,21.0001000000002" />
+    <Link Source="@74" Target="@87" Category="CallStackDirectCall" Bounds="828.552734375,577.640014648438,112.912780761719,27.8450927734375" />
+    <Link Source="@75" Target="@47" Category="CallStackDirectCall" Bounds="799.640014648438,743.359985351563,0,21" />
+    <Link Source="@8" Target="@7" Category="CallStackDirectCall" Bounds="1097.64001464844,1074.80004882813,0,21" />
+    <Link Source="@80" Target="@83" Category="CallStackDirectCall" Bounds="556.370628463928,1903.39957058823,2.6701709553347,21.0715015128271" />
+    <Link Source="@81" Target="@107" Category="CallStackDirectCall" Bounds="95.6399993896484,1688.81774902344,37.0340270996094,244.582275390625" />
+    <Link Source="@82" Target="@81" Category="CallStackDirectCall" Bounds="158.056777954102,1903.40002441406,16.4449157714844,22.71044921875" />
+    <Link Source="@83" Target="@104" Category="CallStackDirectCall" Bounds="536.105836355756,1958.63967058823,11.1373613212938,21.9724626115858" />
+    <Link Source="@85" Target="@68" Category="CallStackDirectCall" Bounds="516.640014648438,798.599975585938,0,21" />
+    <Link Source="@86" Target="@92" Category="CallStackDirectCall" Bounds="704.640014648438,1903.39987990723,0,21.0001000000002" />
+    <Link Source="@87" Target="@30" Category="CallStackDirectCall" Bounds="351.732177734375,632.880004882813,393.148254394531,628.651489257813" />
+    <Link Source="@87" Target="@61" Category="CallStackDirectCall" Bounds="808.848571777344,632.880004882813,86.9959106445313,27.3048706054688" />
+    <Link Source="@87" Target="@88" Category="CallStackDirectCall" Bounds="768.640014648438,632.880004882813,0,21" />
+    <Link Source="@88" Target="@75" Category="CallStackDirectCall" Bounds="775.72216796875,688.119995117188,12.4310913085938,22.1514282226563" />
+    <Link Source="@89" Target="@17" Category="CallStackDirectCall" Bounds="816.032836914063,1185.28002929688,27.447265625,24.06640625" />
+    <Link Source="@9" Target="@21" Category="CallStackDirectCall" Bounds="633.640014648438,1406.23999023438,0,21" />
+    <Link Source="@91" Target="@93" Category="CallStackDirectCall" Bounds="200.555267333984,1737.68005371094,23.5195617675781,23.6221923828125" />
+    <Link Source="@92" Target="@18" Category="CallStackDirectCall" Bounds="694.799235816899,1958.63997990723,6.18547019038488,21.3554152237143" />
+    <Link Source="@93" Target="@106" Category="CallStackDirectCall" Bounds="235.272541092102,1792.10355937159,136.504989324769,30.0415206728951" />
+    <Link Source="@94" Target="@107" Category="CallStackDirectCall" Bounds="150.639999389648,1627.19995117188,0,21" />
+    <Link Source="@95" Target="@94" Category="CallStackDirectCall" Bounds="151.813430786133,1571.9599609375,1.14118957519531,21.0133056640625" />
+    <Link Source="@96" Target="@97" Category="CallStackDirectCall" Bounds="1097.64001464844,301.440002441406,0,21" />
+    <Link Source="@97" Target="@35" Category="CallStackDirectCall" Bounds="1097.64001464844,356.679992675781,0,131.480010986328" />
+    <Link Source="@97" Target="@38" Category="CallStackDirectCall" Bounds="1057.96862792969,356.679992675781,25.9638671875,23.9041137695313" />
+    <Link Source="@99" Target="@102" Category="CallStackDirectCall" Bounds="1097.64001464844,688.119995117188,0,21" />
   </Links>
   <Categories>
     <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
     <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="Category1" Label="类别 1" Background="#FFE51400" IsTag="True" />
     <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
     <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
   </Categories>
   <Properties>
+    <Property Id="Background" Label="背景" Description="背景色" DataType="System.Windows.Media.Brush" />
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
@@ -494,6 +497,7 @@
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
     <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
@@ -625,6 +629,10 @@
     <Alias n="111" Id="(Name=IsolationAwareCreateWindowExW @28 @84 OverloadingParameters=[(Type=&quot;unsigned long&quot; Name=dwExStyle),(@60 Name=lpClassName),(@60 Name=lpWindowName),(Type=&quot;unsigned long&quot; Name=dwStyle),(@33 Name=X),(@33 Name=Y),(@33 Name=nWidth),(@33 Name=nHeight),(@84 Name=hWndParent),(Type=&quot;HMENU__ *&quot; Name=hMenu),(Type=&quot;HINSTANCE__ *&quot; Name=hInstance),(Type=&quot;void *&quot; Name=lpParam)] @2)" />
   </IdentifierAliases>
   <Styles>
+    <Style TargetType="Node" GroupLabel="类别 1" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
     <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
       <Condition Expression="HasCategory('CurrentCallStackCall')" />
       <Setter Property="Stroke" Value="#FFD93701" />
