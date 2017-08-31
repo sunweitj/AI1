@@ -187,6 +187,7 @@ CController::~CController()
 //--------------------------------------------------------------------------------------
 bool CController::Update()
 {
+
 	//run the sweepers through NUM_TICKS amount of cycles. During this loop each
 	//sweepers NN is constantly updated with the appropriate information from its 
 	//surroundings. The output from the NN is obtained and the sweeper is moved. 
